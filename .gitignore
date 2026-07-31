@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+*.swp
+
+# Editors
+.idea/
+.vscode/
+*.iml
+
+# Node / JS
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+
+# Local config and secrets - never commit real kubeconfigs or credentials
+.kube/
+*.kubeconfig
+.env
+.env.*
+!kubectl-cheatsheet.md
+
+# Temporary files
+tmp/
+*.tmp
+*.bak
+
+# Build output
+dist/
+build/
