@@ -1,0 +1,39 @@
+# Module 04 - Networking
+
+## Overview
+
+Module 04 explains how networking works in Kubernetes: the container network interface, Services, Ingress, and Network Policies. Networking is one of the most misunderstood areas of Kubernetes, so this module builds the model step by step.
+
+## Lessons
+
+| Lesson | Title | Status |
+|--------|-------|--------|
+| 16 | Networking Fundamentals and the CNI | Planned |
+| 17 | Services and Cluster Networking | Planned |
+| 18 | Ingress and Ingress Controllers | Planned |
+| 19 | Network Policies | Planned |
+
+## Learning Outcomes
+
+After completing this module you will be able to:
+
+- Explain the four networking problems Kubernetes solves
+- Describe how CNI plugins implement pod networking
+- Use Services for stable access to Pods
+- Expose applications externally with Ingress
+- Segment traffic with Network Policies
+
+## Prerequisites
+
+- [Module 01 - Fundamentals](../01-fundamentals/README.md)
+- [Module 03 - Workloads](../03-workloads/README.md)
+
+## Related Material
+
+- Lab: `labs/` once published
+
+## Next Module
+
+[Module 05 - Storage](../05-storage/README.md) - persistent data in Kubernetes.
+
+[Back to Documentation Hub](../README.md)
