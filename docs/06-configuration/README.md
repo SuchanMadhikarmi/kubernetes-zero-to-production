@@ -8,7 +8,7 @@ Module 06 covers application configuration and resource management. ConfigMaps a
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 23 | ConfigMaps | Planned |
+| 23 | [ConfigMaps and Secrets](lesson-23-configmaps-and-secrets.md) | Complete |
 | 24 | Secrets | Planned |
 | 25 | Resource Requests, Limits, and Quotas | Planned |
 
