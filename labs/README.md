@@ -25,6 +25,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-23-configmaps-and-secrets.md](lab-23-configmaps-and-secrets.md) | 23 | ConfigMaps and Secrets |
 | [lab-20-persistent-storage-pv-pvc-sc.md](lab-20-persistent-storage-pv-pvc-sc.md) | 20 | Persistent Storage (PVs, PVCs, StorageClasses) |
 | [lab-07-scheduling-and-taints.md](lab-07-scheduling-and-taints.md) | 7 | Scheduling and Taints |
+| [lab-25-resource-management-and-oomkiller.md](lab-25-resource-management-and-oomkiller.md) | 25 | Resource Management and OOMKiller |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |
