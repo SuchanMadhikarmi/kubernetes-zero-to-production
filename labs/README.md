@@ -29,6 +29,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-15-jobs-and-cronjobs.md](lab-15-jobs-and-cronjobs.md) | 15 | Jobs and CronJobs |
 | [lab-14-daemonsets.md](lab-14-daemonsets.md) | 14 | DaemonSets |
 | [lab-13-statefulsets.md](lab-13-statefulsets.md) | 13 | StatefulSets |
+| [lab-27-rbac-and-service-accounts.md](lab-27-rbac-and-service-accounts.md) | 27 | RBAC and Service Accounts |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |

@@ -9,7 +9,7 @@ Module 07 covers Kubernetes security. You will learn authentication and authoriz
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 26 | Authentication and Authorization | Planned |
-| 27 | RBAC and Service Accounts | Planned |
+| 27 | [RBAC and Service Accounts](lesson-27-rbac-and-service-accounts.md) | Complete |
 | 28 | Security Contexts and Pod Security Standards | Planned |
 | 29 | Image Security and Software Supply Chain | Planned |
 

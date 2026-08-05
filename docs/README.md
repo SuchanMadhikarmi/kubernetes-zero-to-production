@@ -25,7 +25,7 @@ The curriculum is organized into 14 modules. Each module contains a set of seque
 | [04 Networking](04-networking/README.md) | 16-19 | Networking, Services, Ingress, Network Policies | In Progress (2/4) |
 | [05 Storage](05-storage/README.md) | 20-22 | Volumes, Persistent Volumes, Storage Classes | In Progress (1/3) |
 | [06 Configuration](06-configuration/README.md) | 23-25 | ConfigMaps, Secrets, resource management | Complete (3/3) |
-| [07 Security](07-security/README.md) | 26-29 | Authentication, RBAC, Pod Security Standards | Planned |
+| [07 Security](07-security/README.md) | 26-29 | Authentication, RBAC, Pod Security Standards | In Progress (1/4) |
 | [08 Observability](08-observability/README.md) | 30-32 | Monitoring, logging, probes | Planned |
 | [09 Packaging](09-packaging/README.md) | 33-34 | Helm and Kustomize | Planned |
 | [10 GitOps](10-gitops/README.md) | 35-36 | GitOps principles, Argo CD, Flux | Planned |
@@ -59,7 +59,7 @@ See [lesson-template.md](_templates/lesson-template.md) for the full structure.
 | Networking | [README](04-networking/README.md) | 16-19 | Planned |
 | Storage | [README](05-storage/README.md) | 20-22 | Planned |
 | Configuration | [README](06-configuration/README.md) | 23-25 | Planned |
-| Security | [README](07-security/README.md) | 26-29 | Planned |
+| Security | [README](07-security/README.md) | 26-29 | In Progress |
 | Observability | [README](08-observability/README.md) | 30-32 | Planned |
 | Packaging | [README](09-packaging/README.md) | 33-34 | Planned |
 | GitOps | [README](10-gitops/README.md) | 35-36 | Planned |
