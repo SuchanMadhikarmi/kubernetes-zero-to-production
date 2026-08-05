@@ -22,7 +22,7 @@ The curriculum is organized into 14 modules. Each module contains a set of seque
 | [01 Fundamentals](01-fundamentals/README.md) | 1-5 | Kubernetes basics and kubectl | In Progress |
 | [02 Architecture](02-architecture/README.md) | 6-9 | Control plane and worker node internals | Planned |
 | [03 Workloads](03-workloads/README.md) | 10-15 | Pods, Deployments, StatefulSets and more | In Progress (1/6) |
-| [04 Networking](04-networking/README.md) | 16-19 | Networking, Services, Ingress, Network Policies | Planned |
+| [04 Networking](04-networking/README.md) | 16-19 | Networking, Services, Ingress, Network Policies | In Progress (1/4) |
 | [05 Storage](05-storage/README.md) | 20-22 | Volumes, Persistent Volumes, Storage Classes | Planned |
 | [06 Configuration](06-configuration/README.md) | 23-25 | ConfigMaps, Secrets, resource management | Planned |
 | [07 Security](07-security/README.md) | 26-29 | Authentication, RBAC, Pod Security Standards | Planned |
