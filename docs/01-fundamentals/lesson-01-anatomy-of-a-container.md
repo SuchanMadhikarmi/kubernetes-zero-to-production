@@ -54,6 +54,43 @@ This is the conceptual foundation for every later lesson. If you master this now
 - Docker installed for the hands-on section. If Docker is not available, the concepts still apply and the commands can be run on a Linux host without it (with slightly different output).
 - No prior Kubernetes knowledge is required. This lesson starts from first principles.
 
+### Installing Docker
+
+```bash
+# Ubuntu/Debian
+sudo apt-get update
+sudo apt-get install -y docker.io
+sudo usermod -aG docker $USER
+# Log out and back in for group changes to take effect
+
+# Verify
+docker --version
+```
+
+### Optional: Setting Up kind for Later Lessons
+
+As you progress through this curriculum, you will need a Kubernetes cluster. Install kind now so you are ready:
+
+```bash
+# Linux (amd64)
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.23.0/kind-linux-amd64
+chmod +x ./kind
+sudo mv ./kind /usr/local/bin/kind
+
+# Create a cluster
+kind create cluster --name learning
+
+# Verify
+kubectl cluster-info --context kind-learning
+kubectl get nodes
+```
+
+Clean up when done:
+
+```bash
+kind delete cluster --name learning
+```
+
 ## Real-world Motivation
 
 Two classic failure modes in software delivery directly motivated containers:

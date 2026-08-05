@@ -10,6 +10,25 @@ Deploy an Nginx application using a declarative Deployment. Observe the Deployme
 - A running kind, minikube, or k3s cluster.
 - kubectl installed and configured.
 
+### Quick Cluster Setup (kind)
+
+If you do not have a cluster running, use kind:
+
+```bash
+# Create a cluster
+kind create cluster --name learning
+
+# Verify
+kubectl cluster-info --context kind-learning
+kubectl get nodes
+```
+
+When finished:
+
+```bash
+kind delete cluster --name learning
+```
+
 ## Target Environment
 
 Any local Kubernetes cluster (kind, minikube, k3s, Docker Desktop Kubernetes).

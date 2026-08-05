@@ -13,6 +13,19 @@ Prove that a container is a constrained Linux process by observing, hands-on, bo
 - Docker installed and running on a Linux machine (Ubuntu recommended).
 - A terminal.
 
+### Installing Docker
+
+```bash
+# Ubuntu/Debian
+sudo apt-get update
+sudo apt-get install -y docker.io
+sudo usermod -aG docker $USER
+# Log out and back in for group changes to take effect
+
+# Verify
+docker --version
+```
+
 ## Target Environment
 
 Local Linux host with Docker. The same concepts map directly onto any Kubernetes cluster via the Container Runtime Interface.
