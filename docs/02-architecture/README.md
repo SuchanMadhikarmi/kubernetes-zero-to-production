@@ -9,7 +9,7 @@ Module 02 goes inside the cluster. It explains the control plane and worker node
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 6 | Control Plane Architecture | Planned |
-| 7 | Worker Node Architecture | Planned |
+| 7 | [Worker Node Architecture (Scheduling and Taints)](lesson-07-worker-node-architecture.md) | Complete |
 | 8 | The Kubernetes API and Controllers | Planned |
 | 9 | End-to-End Request Flow in a Cluster | Planned |
 
