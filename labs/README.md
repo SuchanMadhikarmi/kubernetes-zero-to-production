@@ -23,6 +23,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-17-services-and-cluster-networking.md](lab-17-services-and-cluster-networking.md) | 17 | Services and Cluster Networking |
 | [lab-18-ingress-and-ingress-controllers.md](lab-18-ingress-and-ingress-controllers.md) | 18 | Ingress and Ingress Controllers |
 | [lab-23-configmaps-and-secrets.md](lab-23-configmaps-and-secrets.md) | 23 | ConfigMaps and Secrets |
+| [lab-20-persistent-storage-pv-pvc-sc.md](lab-20-persistent-storage-pv-pvc-sc.md) | 20 | Persistent Storage (PVs, PVCs, StorageClasses) |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |
