@@ -69,6 +69,12 @@ Containers solve both problems:
 
 Understanding these fundamentals is not academic. When you see a Pod stuck in `CrashLoopBackOff` with exit code 137, or a node mysteriously under memory pressure, the answer lives in the mechanisms covered in this lesson.
 
+### Real Company Examples
+
+**Google:** At Google, everything runs in containers. They invented the concept of Borg, which directly inspired Kubernetes. When you run a search on Google, a container processes it. They use strict cgroup limits to ensure a query from one user does not starve resources from another user's query.
+
+**Netflix:** Netflix uses containers to run its streaming algorithms. By using cgroups, they ensure that the recommendation engine never consumes so much CPU that the actual video streaming service crashes.
+
 ## Core Concepts
 
 A container is a **standard Linux process** whose visibility and resource usage are constrained by two kernel features. Nothing more, nothing less.
@@ -163,6 +169,62 @@ When the kubelet starts a Pod (which contains containers), it reads the Pod spec
 - For **requests and limits**, it configures cgroups such as `cpu.shares` and `memory.limit_in_bytes`.
 - For **isolation**, it configures namespaces such as PID, NET, and MNT.
 - If a process exceeds `memory.limit_in_bytes`, the Linux kernel invokes the OOM Killer and terminates the process.
+
+### Step-by-Step Workflow
+
+When you run a container, whether through Docker or Kubernetes, the following steps happen under the hood:
+
+1. The user runs `docker run` or `kubectl apply`.
+2. The container runtime receives the instruction.
+3. The runtime downloads the image (if not already present locally).
+4. The runtime extracts the image filesystem.
+5. The runtime calls the Linux kernel to create a new process.
+6. The kernel creates new namespaces for the process (PID, NET, MNT, etc.).
+7. The kernel applies cgroup limits to the process (CPU, memory).
+8. The process starts inside its isolated bubble.
+
+From the container's perspective, it is the only thing running on the machine. From the host's perspective, it is just another process with restricted visibility and resource usage.
+
+### Container Lifecycle
+
+A container is not always running. It passes through a defined set of states:
+
+| State | Description |
+|-------|-------------|
+| Created | The runtime has registered the container with the OS, but the application process has not started yet. |
+| Running | The application process is executing inside the container. |
+| Paused | (Optional) The process is frozen by the runtime. All threads are suspended. |
+| Stopped | The process has exited or been killed (either intentionally or by the OOM killer). |
+| Deleted | The container filesystem and metadata are removed. All traces are gone. |
+
+Understanding the lifecycle matters for debugging. A container stuck in `Created` means the runtime could not start the process. A container that keeps transitioning between `Running` and `Stopped` with high exit codes usually indicates a bug or a missing dependency.
+
+### Containers vs Virtual Machines
+
+| Feature | Virtual Machine (VM) | Container |
+|---------|---------------------|-----------|
+| OS Kernel | Has its own full guest kernel | Shares the host kernel |
+| Isolation | Hardware-level (Hypervisor) | OS-level (Namespaces) |
+| Size | Gigabytes (GB) | Megabytes (MB) |
+| Boot Time | Minutes | Seconds |
+| Resource Overhead | High (runs full OS) | Low (shares kernel) |
+| Security Boundary | Stronger (hardware isolation) | Weaker (kernel is shared) |
+
+The shared-kernel model is why containers are fast and lightweight. It is also why you must be careful: if the host kernel panics, all containers on that host die. VMs do not have this problem because each has its own isolated kernel.
+
+### Real Company Examples
+
+**Google:** At Google, everything runs in containers. They invented the concept of Borg, which directly inspired Kubernetes. When you run a search on Google, a container processes it. They use strict cgroup limits to ensure a query from one user does not starve resources from another user's query.
+
+**Netflix:** Netflix uses containers to run its streaming algorithms. By using cgroups, they ensure that the recommendation engine never consumes so much CPU that the actual video streaming service crashes.
+
+### Common Myths
+
+| Myth | Fact |
+|------|------|
+| "Containers are just lightweight VMs." | This is dangerously wrong. VMs virtualize hardware. Containers virtualize the OS. They do not have their own kernel. If the host kernel panics, all containers on that host die. |
+| "Containers are a strong security boundary by default." | Containers provide OS-level isolation, not a hardened boundary. A namespace breakout can grant access to the host. Defense in depth is required. |
+| "Docker is the only way to run containers." | Docker is one container runtime. Kubernetes can use containerd, CRI-O, or any CRI-compliant runtime. Docker is not required. |
 
 The result is that the container's resource usage is both accounted for and bounded by the kernel itself, independent of what any user-space component decides to do.
 
