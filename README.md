@@ -76,7 +76,7 @@ All 47 lessons are defined. Each lesson file is created and marked complete as c
 | [01 Fundamentals](docs/01-fundamentals/README.md) | 1-5 | Kubernetes basics and kubectl | In Progress |
 | [02 Architecture](docs/02-architecture/README.md) | 6-9 | Control plane and worker node internals | Planned |
 | [03 Workloads](docs/03-workloads/README.md) | 10-15 | Pods, Deployments, StatefulSets and more | In Progress (1/6) |
-| [04 Networking](docs/04-networking/README.md) | 16-19 | Networking, Services, Ingress, Network Policies | In Progress (1/4) |
+| [04 Networking](docs/04-networking/README.md) | 16-19 | Networking, Services, Ingress, Network Policies | In Progress (2/4) |
 | [05 Storage](docs/05-storage/README.md) | 20-22 | Volumes, Persistent Volumes, Storage Classes | Planned |
 | [06 Configuration](docs/06-configuration/README.md) | 23-25 | ConfigMaps, Secrets, resource management | Planned |
 | [07 Security](docs/07-security/README.md) | 26-29 | AuthN/AuthZ, RBAC, Pod Security Standards | Planned |

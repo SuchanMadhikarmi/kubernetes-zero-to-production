@@ -10,7 +10,7 @@ Module 04 explains how networking works in Kubernetes: the container network int
 |--------|-------|--------|
 | 16 | Networking Fundamentals and the CNI | Planned |
 | 17 | [Services and Cluster Networking](lesson-17-services-and-cluster-networking.md) | Complete |
-| 18 | Ingress and Ingress Controllers | Planned |
+| 18 | [Ingress and Ingress Controllers](lesson-18-ingress-and-ingress-controllers.md) | Complete |
 | 19 | Network Policies | Planned |
 
 ## Learning Outcomes
