@@ -21,7 +21,7 @@ The curriculum is organized into 14 modules. Each module contains a set of seque
 |--------|---------|-------|--------|
 | [01 Fundamentals](01-fundamentals/README.md) | 1-5 | Kubernetes basics and kubectl | In Progress |
 | [02 Architecture](02-architecture/README.md) | 6-9 | Control plane and worker node internals | Planned |
-| [03 Workloads](03-workloads/README.md) | 10-15 | Pods, Deployments, StatefulSets and more | Planned |
+| [03 Workloads](03-workloads/README.md) | 10-15 | Pods, Deployments, StatefulSets and more | In Progress |
 | [04 Networking](04-networking/README.md) | 16-19 | Networking, Services, Ingress, Network Policies | Planned |
 | [05 Storage](05-storage/README.md) | 20-22 | Volumes, Persistent Volumes, Storage Classes | Planned |
 | [06 Configuration](06-configuration/README.md) | 23-25 | ConfigMaps, Secrets, resource management | Planned |
@@ -55,7 +55,7 @@ See [lesson-template.md](_templates/lesson-template.md) for the full structure.
 |--------|---------|--------------|--------|
 | Fundamentals | [README](01-fundamentals/README.md) | 1-5 | In Progress |
 | Architecture | [README](02-architecture/README.md) | 6-9 | Planned |
-| Workloads | [README](03-workloads/README.md) | 10-15 | Planned |
+| Workloads | [README](03-workloads/README.md) | 10-15 | In Progress |
 | Networking | [README](04-networking/README.md) | 16-19 | Planned |
 | Storage | [README](05-storage/README.md) | 20-22 | Planned |
 | Configuration | [README](06-configuration/README.md) | 23-25 | Planned |

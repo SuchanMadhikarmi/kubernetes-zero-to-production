@@ -19,6 +19,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | File | Lesson | Topic |
 |------|--------|-------|
 | [lab-01-anatomy-of-a-container.md](lab-01-anatomy-of-a-container.md) | 1 | Namespaces and cgroups |
+| [lab-10-pods-replicasets-and-deployments.md](lab-10-pods-replicasets-and-deployments.md) | 10 | Pods, ReplicaSets, Deployments |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |
