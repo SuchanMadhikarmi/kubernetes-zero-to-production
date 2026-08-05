@@ -13,7 +13,7 @@ Module 03 covers the heart of Kubernetes: the Pod and the controllers that manag
 | 12 | Deployments and Rollout Strategies | Planned |
 | 13 | StatefulSets | Planned |
 | 14 | DaemonSets | Planned |
-| 15 | Jobs and CronJobs | Planned |
+| 15 | [Jobs and CronJobs](lesson-15-jobs-and-cronjobs.md) | Complete |
 
 ## Learning Outcomes
 
