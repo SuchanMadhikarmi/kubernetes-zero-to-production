@@ -81,7 +81,7 @@ All 47 lessons are defined. Each lesson file is created and marked complete as c
 | [06 Configuration](docs/06-configuration/README.md) | 23-25 | ConfigMaps, Secrets, resource management | Complete (3/3) |
 | [07 Security](docs/07-security/README.md) | 26-29 | AuthN/AuthZ, RBAC, Pod Security Standards | In Progress (1/4) |
 | [08 Observability](docs/08-observability/README.md) | 30-32 | Monitoring, logging, probes | In Progress (1/3) |
-| [09 Packaging](docs/09-packaging/README.md) | 33-34 | Helm and Kustomize | Planned |
+| [09 Packaging](docs/09-packaging/README.md) | 33-34 | Helm and Kustomize | In Progress (1/2) |
 | [10 GitOps](docs/10-gitops/README.md) | 35-36 | GitOps principles, Argo CD, Flux | Planned |
 | [11 Operators](docs/11-operators/README.md) | 37-38 | CRDs and the Operator pattern | Planned |
 | [12 Production](docs/12-production/README.md) | 39-42 | Autoscaling, HA, hardening, capacity | Planned |

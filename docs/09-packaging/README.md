@@ -8,7 +8,7 @@ Module 09 covers how applications are packaged and templated. Helm and Kustomize
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 33 | Helm | Planned |
+| 33 | [Helm](lesson-33-helm.md) | Complete |
 | 34 | Kustomize | Planned |
 
 ## Learning Outcomes
