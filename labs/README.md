@@ -39,6 +39,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-31-logging.md](lab-31-logging.md) | 31 | Logging |
 | [lab-16-networking-fundamentals-and-the-cni.md](lab-16-networking-fundamentals-and-the-cni.md) | 16 | Networking Fundamentals and the CNI |
 | [lab-12-deployments-and-rollout-strategies.md](lab-12-deployments-and-rollout-strategies.md) | 12 | Deployments and Rollout Strategies |
+| [lab-22-init-containers.md](lab-22-init-containers.md) | 22 | Init Containers |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |
