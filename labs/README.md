@@ -36,6 +36,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-35-gitops-principles-and-practices.md](lab-35-gitops-principles-and-practices.md) | 35 | GitOps Principles and Practices |
 | [lab-17-pod-priority-and-preemption.md](lab-17-pod-priority-and-preemption.md) | 17 | Pod Priority and Preemption |
 | [lab-30-monitoring-and-metrics.md](lab-30-monitoring-and-metrics.md) | 30 | Monitoring and Metrics |
+| [lab-31-logging.md](lab-31-logging.md) | 31 | Logging |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |

@@ -9,7 +9,7 @@ Module 08 covers how to know what your workloads are doing. You will learn monit
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 30 | [Monitoring and Metrics](lesson-30-monitoring-and-metrics.md) | Complete |
-| 31 | Logging | Planned |
+| 31 | [Logging](lesson-31-logging.md) | Complete |
 | 32 | [Probes and Health Checks](lesson-32-probes-and-health-checks.md) | Complete |
 
 ## Learning Outcomes
