@@ -28,7 +28,7 @@ The curriculum is organized into 14 modules. Each module contains a set of seque
 | [07 Security](07-security/README.md) | 26-29 | Authentication, RBAC, Pod Security Standards | In Progress (1/4) |
 | [08 Observability](08-observability/README.md) | 30-32 | Monitoring, logging, probes | In Progress (1/3) |
 | [09 Packaging](09-packaging/README.md) | 33-34 | Helm and Kustomize | In Progress (1/2) |
-| [10 GitOps](10-gitops/README.md) | 35-36 | GitOps principles, Argo CD, Flux | Planned |
+| [10 GitOps](10-gitops/README.md) | 35-36 | GitOps principles, Argo CD, Flux | In Progress (1/2) |
 | [11 Operators](11-operators/README.md) | 37-38 | CRDs and the Operator pattern | Planned |
 | [12 Production](12-production/README.md) | 39-42 | Autoscaling, HA, hardening, capacity | Planned |
 | [13 Troubleshooting](13-troubleshooting/README.md) | 43-44 | Workload, node, and network debugging | Planned |

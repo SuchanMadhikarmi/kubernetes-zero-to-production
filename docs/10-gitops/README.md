@@ -8,7 +8,7 @@ Module 10 covers GitOps, the pattern of using Git as the single source of truth 
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 35 | GitOps Principles and Practices | Planned |
+| 35 | [GitOps Principles and Practices](lesson-35-gitops-principles-and-practices.md) | Complete |
 | 36 | Argo CD and Flux | Planned |
 
 ## Learning Outcomes
