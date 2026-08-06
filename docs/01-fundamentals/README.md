@@ -9,6 +9,7 @@ Module 01 establishes the foundation. It explains what Kubernetes is, why contai
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 1 | [The Anatomy of a Container](lesson-01-anatomy-of-a-container.md) | Complete |
+| 23 | [Namespaces and Contexts](lesson-23-namespaces-and-contexts.md) | Complete |
 | 2 | Containers and Container Orchestration | Planned |
 | 3 | Kubernetes in the Cloud-Native Landscape | Planned |
 | 4 | Core Kubernetes Concepts and Vocabulary | Planned |
