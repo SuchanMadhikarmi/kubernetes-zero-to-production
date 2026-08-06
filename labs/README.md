@@ -41,6 +41,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-12-deployments-and-rollout-strategies.md](lab-12-deployments-and-rollout-strategies.md) | 12 | Deployments and Rollout Strategies |
 | [lab-22-init-containers.md](lab-22-init-containers.md) | 22 | Init Containers |
 | [lab-23-namespaces-and-contexts.md](lab-23-namespaces-and-contexts.md) | 23 | Namespaces and Contexts |
+| [lab-24-building-a-3-tier-web-application.md](lab-24-building-a-3-tier-web-application.md) | 24 | Building a 3-Tier Web Application |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |
