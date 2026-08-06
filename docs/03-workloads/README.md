@@ -10,7 +10,7 @@ Module 03 covers the heart of Kubernetes: the Pod and the controllers that manag
 |--------|-------|--------|
 | 10 | [Pods, ReplicaSets, and Deployments](lesson-10-pods-replicasets-and-deployments.md) | Complete |
 | 11 | ReplicaSets | Planned |
-| 12 | Deployments and Rollout Strategies | Planned |
+| 12 | [Deployments and Rollout Strategies](lesson-12-deployments-and-rollout-strategies.md) | Complete |
 | 13 | [StatefulSets](lesson-13-statefulsets.md) | Complete |
 | 14 | [DaemonSets](lesson-14-daemonsets.md) | Complete |
 | 15 | [Jobs and CronJobs](lesson-15-jobs-and-cronjobs.md) | Complete |
