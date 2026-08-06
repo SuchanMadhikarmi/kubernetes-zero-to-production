@@ -31,7 +31,7 @@ The curriculum is organized into 14 modules. Each module contains a set of seque
 | [10 GitOps](10-gitops/README.md) | 35-36 | GitOps principles, Argo CD, Flux | In Progress (1/2) |
 | [11 Operators](11-operators/README.md) | 37-38 | CRDs and the Operator pattern | Planned |
 | [12 Production](12-production/README.md) | 24, 26, 39-42 | Autoscaling, HA, hardening, capacity | In Progress (2/6) |
-| [13 Troubleshooting](13-troubleshooting/README.md) | 43-44 | Workload, node, and network debugging | Planned |
+| [13 Troubleshooting](13-troubleshooting/README.md) | 27, 43-44 | Workload, node, and network debugging | In Progress (1/3) |
 | [14 Certifications](14-certifications/README.md) | 45-47 | CKA, CKAD, CKS exam preparation | Planned |
 
 ## How to Use This Repository

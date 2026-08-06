@@ -44,6 +44,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-24-building-a-3-tier-web-application.md](lab-24-building-a-3-tier-web-application.md) | 24 | Building a 3-Tier Web Application |
 | [lab-25-node-affinity-and-anti-affinity.md](lab-25-node-affinity-and-anti-affinity.md) | 25 | Node Affinity and Pod Anti-Affinity |
 | [lab-26-horizontal-pod-autoscaler.md](lab-26-horizontal-pod-autoscaler.md) | 26 | Horizontal Pod Autoscaler |
+| [lab-27-sre-troubleshooting-masterclass.md](lab-27-sre-troubleshooting-masterclass.md) | 27 | The SRE Troubleshooting Masterclass |
 | pending | 2-5 | Fundamentals labs |
 | pending | 10-15 | Workloads labs |
 | pending | 16-19 | Networking labs |
