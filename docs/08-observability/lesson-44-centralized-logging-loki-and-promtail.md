@@ -455,6 +455,18 @@ Q: Why must logs be shipped to Loki rather than left on the node's `/var/log`?
 
 A: Logs only on a node are single-node, lost when the node or Pod is deleted, and unsearchable across a cluster. Centralized log aggregation and durable storage make them searchable for months.
 
+## Interview Questions
+
+- What is the difference between metrics (Prometheus) and logs (Loki) as signal sources?
+- How does Loki index logs by labels instead of full-text, and what does storing chunks mean for query cost?
+- What role does the log agent (Promtail) perform when it ships logs?
+- How do the distributor, ingester, and querier work together in Loki?
+
+## Scenario Questions
+
+1. Your Pods run, but Loki shows no logs. Which labels, selectors, and file paths do you check first, and in what order?
+2. Logs appear for one application but not another running on the same cluster. Where do you start the investigation?
+
 ## Quiz
 
 1. Which component ships container logs from each node to Loki?

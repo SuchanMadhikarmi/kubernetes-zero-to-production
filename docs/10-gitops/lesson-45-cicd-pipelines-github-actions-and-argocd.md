@@ -443,6 +443,18 @@ A: `git revert <commit-sha>`. ArgoCD detects the change, syncs back to the previ
 - "ArgoCD can build Docker images." False (that's CI).
 - "You must use `latest` tags for GitOps." False (never use `latest`).
 
+## Interview Questions
+
+- How does GitOps differ from traditional CI/CD for cluster changes, and where does ArgoCD fit?
+- What is the difference between a pull-based sync from ArgoCD and a push from GitHub Actions?
+- How does ArgoCD reconcile and correct drift from the Git source of truth?
+- What are the benefits and risks of auto-sync with self-healing?
+
+## Scenario Questions
+
+1. A developer edited a resource directly with `kubectl`, and it now differs from Git. How does ArgoCD detect the drift and how do you return to the desired state?
+2. A release must be rolled back after a bad deployment. Describe the Git-first rollback and the emergency rollback with `kubectl rollout`.
+
 ## Quiz
 
 1. In a GitOps pipeline, what does the CI tool build?

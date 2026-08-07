@@ -113,6 +113,15 @@ Before submitting a contribution, verify:
 - Content is beginner friendly and interview ready
 - No emojis or non-standard formatting
 
+You can run the automated checks locally before opening a pull request:
+
+```bash
+python3 scripts/check-links.py
+python3 scripts/validate-lessons.py
+```
+
+The same checks run automatically in the repository's CI workflow.
+
 ## Commit Messages
 
 Use conventional, meaningful commit messages:

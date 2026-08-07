@@ -451,6 +451,18 @@ A: Revert with `kubectl rollout undo`. Prevention: use Argo Rollouts with a cana
 - "Argo Rollouts replaces ArgoCD" → False.
 - "Canary deployments require a Service Mesh or Ingress controller for true routing" → True.
 
+## Interview Questions
+
+- What is the difference between a rolling update, a canary, and a blue-green strategy?
+- How do Argo Rollouts and the Rollout resource differ from a standard Deployment?
+- What roles do the analysis template and experiment metrics play in progressive delivery?
+- How do you pause or abort a rollout when metrics increase error rates?
+
+## Scenario Questions
+
+1. You want to release a new image to a small percentage of traffic and only promote it if latency improves. Outline the Argo Rollouts setup you would use.
+2. Mid-rollout, your error rate jumps. Walk through how you detect the problem, abort the release, and confirm the previous version is serving traffic.
+
 ## Quiz
 
 1. Which resource does Argo Rollout replace for canary?

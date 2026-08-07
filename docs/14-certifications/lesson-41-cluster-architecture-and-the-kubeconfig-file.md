@@ -411,6 +411,18 @@ Ideal Answer: kubectl cannot find a valid kubeconfig. With no config it defaults
 
 **Expected answer:** Restore the intended context (`kubectl config use-context <the-cluster>`), verify with `current-context`, then re-delete the namespace *exactly* on the intended cluster. Discipline before destructive work prevents most of these.
 
+## Interview Questions
+
+- What is the purpose of the kubeconfig file, and where does it look for context by default?
+- How do clusters, users, and contexts relate inside a single kubeconfig?
+- How do you add a new context without corrupting an existing one?
+- Why is the certificate-authority data sensitive, and how do you avoid committing it?
+
+## Scenario Questions
+
+1. You run `kubectl get nodes` and hit the wrong cluster. Step through how you would inspect and switch the active context safely.
+2. A new engineer needs read-only access. Using certificate authentication, outline what you add to their kubeconfig and what you keep out.
+
 ## Quiz
 
 1. Which component runs as a native service managed by systemd rather than as a container under Kubernetes?

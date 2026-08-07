@@ -396,6 +396,18 @@ A: (1) Confirm the app exposes a `/metrics`: `kubectl exec <pod> -- curl localho
 - "Prometheus can search text logs" → False (use Loki).
 - "Prometheus stores cluster state in etcd" → False (it uses its own local TSDB).
 
+## Interview Questions
+
+- How does Prometheus decide which targets to scrape, and what is a scrape interval?
+- What is the difference between metrics Prometheus scrapes directly and those from kube-state-metrics or node-exporter?
+- How do labels shape PromQL queries, and why should you keep label cardinality low?
+- How does Grafana consume Prometheus as a data source?
+
+## Scenario Questions
+
+1. A new workload is not appearing in Prometheus. List where you would look in the scrape config, service discovery, and target health.
+2. A high-cardinality label makes your queries slow. How would you identify and fix the problem?
+
 ## Quiz
 
 1. Which model does Prometheus use to collect metrics from applications?

@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    name: Documentation checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate lesson template conformance
+        run: python3 scripts/validate-lessons.py
+
+      - name: Check internal links
+        run: python3 scripts/check-links.py
+
+      - name: Check for whitespace errors
+        run: git diff --diff-filter=ACMR --exit-code --check && echo "No whitespace errors."

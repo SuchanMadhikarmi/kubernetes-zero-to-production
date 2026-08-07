@@ -376,6 +376,32 @@ Do **Not** apply for Senior Roles When:
 - Myth: "I need to know Go to be a Kubernetes Engineer." Fact: False. While Go is used to write Kubernetes operators, most Kubernetes engineering is YAML, Helm charts, and configuring infrastructure.
 - Myth: "You need a CS degree." Fact: False. The best Platform Engineers often come from a systems administration or self-taught DevOps background.
 
+## Production Notes
+
+- A capstone project is only as strong as the write-up that explains the reasoning and trade-offs.
+- Keep infrastructure-as-code, images, and reproduced logs with the project so reviewers can verify every claim.
+- Production quality means documenting decisions, not just the happy path.
+
+## Best Practices
+
+- Prefer declarative manifests committed to Git over imperative `kubectl` commands.
+- Add labels, resource requests and limits, probes, and least-privilege RBAC to every workload you present.
+- Show your troubleshooting method, not just your answer.
+- Reuse the manifests, diagrams, and cheat sheets from this repository as the foundation of the project.
+
+## Common Mistakes
+
+- Building a demo that works on a laptop but has no resource limits, no probes, and no documentation.
+- Copying a whitepaper deployment without being able to explain any of its pieces.
+- Avoiding the failure-mode discussion; interviewers are more interested in how you debug than in a flawless demo.
+
+## Interview Questions
+
+- Describe the architecture of the project you would present in this capstone.
+- Walk through one incident you handled and exactly how you diagnosed it.
+- How would you make this deployment safe for production, on a small budget?
+- Which part of Kubernetes architecture is your strongest, and which is your weakest?
+
 ## Quiz
 
 ### From Lesson (True/False and Rapid Fire)

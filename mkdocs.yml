@@ -1,0 +1,32 @@
+site_name: Kubernetes Zero to Hero
+site_description: Production-oriented Kubernetes learning path with 47 lessons, labs, manifests, and certification preparation.
+docs_dir: docs
+use_directory_urls: true
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+validation:
+  links:
+    not_found: ignore
+  anchors: ignore
+
+extra:
+  generator: false

@@ -16,42 +16,53 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 
 ## Layout
 
+## Layout
+
+## Layout
+
 | File | Lesson | Topic |
 |------|--------|-------|
-| [lab-01-anatomy-of-a-container.md](lab-01-anatomy-of-a-container.md) | 1 | Namespaces and cgroups |
-| [lab-07-scheduling-and-taints.md](lab-07-scheduling-and-taints.md) | 7 | Scheduling and Taints |
-| [lab-10-pods-replicasets-and-deployments.md](lab-10-pods-replicasets-and-deployments.md) | 10 | Pods, ReplicaSets, Deployments |
-| [lab-12-deployments-and-rollout-strategies.md](lab-12-deployments-and-rollout-strategies.md) | 12 | Deployments and Rollout Strategies |
-| [lab-13-statefulsets.md](lab-13-statefulsets.md) | 13 | StatefulSets |
-| [lab-14-daemonsets.md](lab-14-daemonsets.md) | 14 | DaemonSets |
-| [lab-15-jobs-and-cronjobs.md](lab-15-jobs-and-cronjobs.md) | 15 | Jobs and CronJobs |
-| [lab-16-networking-fundamentals-and-the-cni.md](lab-16-networking-fundamentals-and-the-cni.md) | 16 | Networking Fundamentals and the CNI |
-| [lab-17-services-and-cluster-networking.md](lab-17-services-and-cluster-networking.md) | 17 | Services and Cluster Networking |
-| [lab-17-pod-priority-and-preemption.md](lab-17-pod-priority-and-preemption.md) | 17 | Pod Priority and Preemption |
-| [lab-18-ingress-and-ingress-controllers.md](lab-18-ingress-and-ingress-controllers.md) | 18 | Ingress and Ingress Controllers |
+| [lab-01-anatomy-of-a-container.md](lab-01-anatomy-of-a-container.md) | 1 | Anatomy Of A Container |
+| [lab-07-scheduling-and-taints.md](lab-07-scheduling-and-taints.md) | 7 | Scheduling And Taints |
+| [lab-10-pods-replicasets-and-deployments.md](lab-10-pods-replicasets-and-deployments.md) | 10 | Pods Replicasets And Deployments |
+| [lab-12-deployments-and-rollout-strategies.md](lab-12-deployments-and-rollout-strategies.md) | 12 | Deployments And Rollout Strategies |
+| [lab-13-statefulsets.md](lab-13-statefulsets.md) | 13 | Statefulsets |
+| [lab-14-daemonsets.md](lab-14-daemonsets.md) | 14 | Daemonsets |
+| [lab-15-jobs-and-cronjobs.md](lab-15-jobs-and-cronjobs.md) | 15 | Jobs And Cronjobs |
+| [lab-16-networking-fundamentals-and-the-cni.md](lab-16-networking-fundamentals-and-the-cni.md) | 16 | Networking Fundamentals And The Cni |
+| [lab-17-services-and-cluster-networking.md](lab-17-services-and-cluster-networking.md) | 17 | Services And Cluster Networking |
+| [lab-17-pod-priority-and-preemption.md](lab-17-pod-priority-and-preemption.md) | 17 | Pod Priority And Preemption |
+| [lab-18-ingress-and-ingress-controllers.md](lab-18-ingress-and-ingress-controllers.md) | 18 | Ingress And Ingress Controllers |
 | [lab-19-network-policies.md](lab-19-network-policies.md) | 19 | Network Policies |
-| [lab-20-persistent-storage-pv-pvc-sc.md](lab-20-persistent-storage-pv-pvc-sc.md) | 20 | Persistent Storage (PVs, PVCs, StorageClasses) |
+| [lab-20-persistent-storage-pv-pvc-sc.md](lab-20-persistent-storage-pv-pvc-sc.md) | 20 | Persistent Storage Pv Pvc Sc |
 | [lab-22-init-containers.md](lab-22-init-containers.md) | 22 | Init Containers |
-| [lab-23-configmaps-and-secrets.md](lab-23-configmaps-and-secrets.md) | 23 | ConfigMaps and Secrets |
-| [lab-23-namespaces-and-contexts.md](lab-23-namespaces-and-contexts.md) | 23 | Namespaces and Contexts |
+| [lab-23-namespaces-and-contexts.md](lab-23-namespaces-and-contexts.md) | 23 | Namespaces And Contexts |
+| [lab-23-configmaps-and-secrets.md](lab-23-configmaps-and-secrets.md) | 23 | Configmaps And Secrets |
 | [lab-24-building-a-3-tier-web-application.md](lab-24-building-a-3-tier-web-application.md) | 24 | Building a 3-Tier Web Application |
-| [lab-25-resource-management-and-oomkiller.md](lab-25-resource-management-and-oomkiller.md) | 25 | Resource Management and OOMKiller |
+| [lab-25-resource-management-and-oomkiller.md](lab-25-resource-management-and-oomkiller.md) | 25 | Resource Management And Oomkiller |
 | [lab-25-node-affinity-and-anti-affinity.md](lab-25-node-affinity-and-anti-affinity.md) | 25 | Node Affinity and Pod Anti-Affinity |
 | [lab-26-horizontal-pod-autoscaler.md](lab-26-horizontal-pod-autoscaler.md) | 26 | Horizontal Pod Autoscaler |
-| [lab-27-rbac-and-service-accounts.md](lab-27-rbac-and-service-accounts.md) | 27 | RBAC and Service Accounts |
 | [lab-27-sre-troubleshooting-masterclass.md](lab-27-sre-troubleshooting-masterclass.md) | 27 | The SRE Troubleshooting Masterclass |
+| [lab-27-rbac-and-service-accounts.md](lab-27-rbac-and-service-accounts.md) | 27 | RBAC and Service Accounts |
+| [lab-28-cluster-upgrades-and-maintenance.md](lab-28-cluster-upgrades-and-maintenance.md) | 28 | Cluster Upgrades and Maintenance |
+| [lab-29-node-pressure-and-evictions.md](lab-29-node-pressure-and-evictions.md) | 29 | Node Pressure and Evictions |
 | [lab-30-monitoring-and-metrics.md](lab-30-monitoring-and-metrics.md) | 30 | Monitoring and Metrics |
 | [lab-31-logging.md](lab-31-logging.md) | 31 | Logging |
 | [lab-32-probes-and-health-checks.md](lab-32-probes-and-health-checks.md) | 32 | Probes and Health Checks |
 | [lab-33-helm.md](lab-33-helm.md) | 33 | Helm |
+| [lab-34-operators-in-practice.md](lab-34-operators-in-practice.md) | 34 | Operators in Practice |
 | [lab-35-gitops-principles-and-practices.md](lab-35-gitops-principles-and-practices.md) | 35 | GitOps Principles and Practices |
+| [lab-36-multi-cluster-kubernetes.md](lab-36-multi-cluster-kubernetes.md) | 36 | Multi-Cluster Kubernetes |
+| [lab-37-service-mesh-istio-and-linkerd.md](lab-37-service-mesh-istio-and-linkerd.md) | 37 | Service Mesh (Istio and Linkerd) |
+| [lab-38-advanced-stateful-workloads.md](lab-38-advanced-stateful-workloads.md) | 38 | Advanced Stateful Workloads (Databases and Message Queues) |
+| [lab-39-helm-deep-dive-writing-production-charts.md](lab-39-helm-deep-dive-writing-production-charts.md) | 39 | Helm Deep Dive (Writing Production Charts) |
 | [lab-40-cka-exam-masterclass.md](lab-40-cka-exam-masterclass.md) | 40 | CKA Exam Speed Techniques |
 | [lab-41-cluster-architecture-and-kubeconfig.md](lab-41-cluster-architecture-and-kubeconfig.md) | 41 | Cluster Architecture and Kubeconfig |
 | [lab-42-etcd-backup-and-restore.md](lab-42-etcd-backup-and-restore.md) | 42 | etcd Backup and Restore |
 | [lab-43-prometheus-and-grafana.md](lab-43-prometheus-and-grafana.md) | 43 | Prometheus and Grafana |
 | [lab-44-loki-and-promtail.md](lab-44-loki-and-promtail.md) | 44 | Loki and Promtail |
 | [lab-45-cicd-pipelines-github-actions-argocd.md](lab-45-cicd-pipelines-github-actions-argocd.md) | 45 | CI/CD Pipelines (GitHub Actions and ArgoCD) |
-| [lab-46-argo-rollouts.md](lab-46-argo-rollouts.md) | 46 | Progressive Delivery (Argo Rollouts) |
+| [lab-46-argo-rollouts.md](lab-46-argo-rollouts.md) | 46 | Progressive Delivery with Argo Rollouts |
 | [lab-47-capstone-assessment.md](lab-47-capstone-assessment.md) | 47 | Final Capstone Assessment and Portfolio Project |
 This table is updated as labs are published.
 |------|--------|-------|

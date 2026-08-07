@@ -400,6 +400,18 @@ A: (1) Move static manifests out of `/etc/kubernetes/manifests/`. (2) `etcdctl s
 - "etcd backups include Persistent Volume data" → False.
 - "You can restore an etcd snapshot directly into a running etcd" → False.
 
+## Interview Questions
+
+- What does etcd store, and why is it the source of truth for the cluster?
+- How do you back up etcd on a control-plane node that runs etcd as a static Pod?
+- Why must a restore use the same certificates and the correct snapshot version?
+- What is the difference between backing up etcd and recreating the affected node?
+
+## Scenario Questions
+
+1. A disk failure wiped etcd data on a single-node control plane. Write the ordered steps to restore from your latest snapshot.
+2. The team restored a day-old snapshot and now an app resource is missing. How do you confirm what was lost and communicate it to the app owner without panicking?
+
 ## Quiz
 
 1. Which port does etcd use for client traffic?

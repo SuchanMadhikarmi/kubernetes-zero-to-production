@@ -30,3 +30,4 @@ tmp/
 # Build output
 dist/
 build/
+site/
