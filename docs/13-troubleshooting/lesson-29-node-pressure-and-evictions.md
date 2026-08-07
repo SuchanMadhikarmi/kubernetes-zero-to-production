@@ -41,7 +41,7 @@ By the end of this lesson you will be able to:
 - Explain what happens when a Kubernetes node runs out of memory or disk space.
 - Describe the Node Conditions `MemoryPressure`, `DiskPressure`, and `PIDPressure`.
 - Explain how the Kubelet's Eviction Manager decides which Pods to kill.
-- Connect node evictions to QoS Classes (Guaranteed, Burstable, BestEffort) from Lesson 08.
+- Connect node evictions to QoS Classes (Guaranteed, Burstable, BestEffort) from Lesson 25.
 - Distinguish an eviction (Kubelet) from an OOMKill (Linux Kernel).
 
 ## Prerequisites
@@ -49,7 +49,7 @@ By the end of this lesson you will be able to:
 - Completion of Lessons 1 through 28.
 - A running kind cluster.
 - `kubectl` installed and configured.
-- A solid understanding of QoS Classes from [Lesson 08 - Resource Requests and Limits](../02-architecture/lesson-08-resource-requests-and-limits.md), including how `request` and `limit` map to Guaranteed, Burstable, and BestEffort.
+- A solid understanding of QoS Classes from [Lesson 25 - Resource Requests, Limits, and Quotas](../06-configuration/lesson-25-resource-requests-limits-and-quotas.md), including how `request` and `limit` map to Guaranteed, Burstable, and BestEffort.
 
 ## Real-world Motivation
 
@@ -77,7 +77,7 @@ Imagine a ship is sinking because it is too heavy. The captain (Kubelet) says, "
 
 ### Explain Like I'm a Junior Engineer
 
-If a node's memory or disk gets too full, the kubelet triggers an Eviction. The kubelet ranks all the Pods on the node based on their QoS class (Lesson 08) and their priority. It starts killing the lowest-ranking Pods until the node's resources return to a safe level.
+If a node's memory or disk gets too full, the kubelet triggers an Eviction. The kubelet ranks all the Pods on the node based on their QoS class (Lesson 25) and their priority. It starts killing the lowest-ranking Pods until the node's resources return to a safe level.
 
 ### Explain Technically
 
@@ -482,7 +482,7 @@ Key facts:
 
 ## Related Lessons
 
-- [Lesson 08 - QoS Classes and Resource Management](../02-architecture/lesson-08-resource-requests-and-limits.md) - how `request` and `limit` map to QoS.
+- [Lesson 25 - Resource Requests, Limits, and Quotas](../06-configuration/lesson-25-resource-requests-limits-and-quotas.md) - how `request` and `limit` map to QoS.
 - [Lesson 28 - Cluster Upgrades and Maintenance (Cordon and Drain)](../12-production/lesson-28-cluster-upgrades-and-maintenance.md) - voluntary node eviction with `drain`.
 - [Lesson 27 - The SRE Troubleshooting Masterclass](../13-troubleshooting/lesson-27-sre-troubleshooting-masterclass.md) - systematic debugging of node conditions.
 
