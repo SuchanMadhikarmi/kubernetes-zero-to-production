@@ -10,6 +10,7 @@ Module 12 covers what it takes to run Kubernetes in production: autoscaling, hig
 |--------|-------|--------|
 | 24 | Building a 3-Tier Web Application | Complete |
 | 26 | [Horizontal Pod Autoscaler](lesson-26-horizontal-pod-autoscaler.md) | Complete |
+| 28 | [Cluster Upgrades and Maintenance (Cordon and Drain)](lesson-28-cluster-upgrades-and-maintenance.md) | Complete |
 | 39 | Autoscaling: HPA, VPA, and Cluster Autoscaler | Planned |
 | 40 | High Availability and Multi-Zone Deployments | Planned |
 | 41 | Production Hardening and Best Practices | Planned |
