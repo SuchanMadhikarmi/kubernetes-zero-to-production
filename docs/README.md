@@ -32,7 +32,7 @@ The curriculum is organized into 14 modules. Each module contains a set of seque
 | [11 Operators](11-operators/README.md) | 32, 34, 37-38 | CRDs and the Operator pattern | In Progress (2/3) |
 | [12 Production](12-production/README.md) | 24, 26, 28, 35-36, 39-42 | Autoscaling, HA, hardening, capacity | In Progress (5/6) |
 | [13 Troubleshooting](13-troubleshooting/README.md) | 27, 29, 43-44 | Workload, node, and network debugging | In Progress (2/3) |
-| [14 Certifications](14-certifications/README.md) | 40-41, 45-47 | CKA, CKAD, CKS exam preparation | In Progress (2/4) |
+| [14 Certifications](14-certifications/README.md) | 40-42, 45-47 | CKA, CKAD, CKS exam preparation | In Progress (3/4) |
 
 ## How to Use This Repository
 
