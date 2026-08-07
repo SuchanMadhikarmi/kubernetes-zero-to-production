@@ -40,6 +40,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-43-prometheus-and-grafana.md](lab-43-prometheus-and-grafana.md) | 43 | Prometheus and Grafana |
 | [lab-44-loki-and-promtail.md](lab-44-loki-and-promtail.md) | 44 | Loki and Promtail |
 | [lab-45-cicd-pipelines-github-actions-argocd.md](lab-45-cicd-pipelines-github-actions-argocd.md) | 45 | CI/CD Pipelines (GitHub Actions and ArgoCD) |
+| [lab-46-argo-rollouts.md](lab-46-argo-rollouts.md) | 46 | Progressive Delivery (Argo Rollouts) |
 | [lab-17-pod-priority-and-preemption.md](lab-17-pod-priority-and-preemption.md) | 17 | Pod Priority and Preemption |
 | [lab-30-monitoring-and-metrics.md](lab-30-monitoring-and-metrics.md) | 30 | Monitoring and Metrics |
 | [lab-31-logging.md](lab-31-logging.md) | 31 | Logging |

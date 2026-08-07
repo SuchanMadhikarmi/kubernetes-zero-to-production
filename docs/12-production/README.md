@@ -17,6 +17,7 @@ Module 12 covers what it takes to run Kubernetes in production: autoscaling, hig
 | 40 | High Availability and Multi-Zone Deployments | Planned |
 | 41 | Production Hardening and Best Practices | Planned |
 | 42 | Capacity Planning and Cost Optimization | Planned |
+| 46 | [Progressive Delivery (Argo Rollouts)](lesson-46-progressive-delivery-argo-rollouts.md) | Complete |
 
 ## Learning Outcomes
 

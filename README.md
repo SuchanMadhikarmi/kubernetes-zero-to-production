@@ -84,7 +84,7 @@ All 47 lessons are defined. Each lesson file is created and marked complete as c
 | [09 Packaging](docs/09-packaging/README.md) | 33-34, 39 | Helm and Kustomize | In Progress (2/3) |
 | [10 GitOps](docs/10-gitops/README.md) | 35-36, 45 | GitOps principles, Argo CD, Flux | In Progress (2/3) |
 | [11 Operators](docs/11-operators/README.md) | 32, 34, 37-38 | CRDs and the Operator pattern | In Progress (2/3) |
-| [12 Production](docs/12-production/README.md) | 24, 26, 28, 35-36, 39-42 | Autoscaling, HA, hardening, capacity | In Progress (5/6) |
+| [12 Production](docs/12-production/README.md) | 24, 26, 28, 35-36, 39-42, 46 | Autoscaling, HA, hardening, capacity | In Progress (6/7) |
 | [13 Troubleshooting](docs/13-troubleshooting/README.md) | 27, 29, 43-44 | Workload, node, and network debugging | In Progress (2/3) |
 | [14 Certifications](docs/14-certifications/README.md) | 40-42, 45-47 | CKA, CKAD, CKS exam preparation | In Progress (3/4) |
 
