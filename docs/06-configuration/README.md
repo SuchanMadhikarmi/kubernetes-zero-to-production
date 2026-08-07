@@ -8,8 +8,9 @@ Module 06 covers application configuration and resource management. ConfigMaps a
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 23 | [ConfigMaps and Secrets](lesson-23-configmaps-and-secrets.md) | Complete |
-| 25 | [Resource Management and the OOMKiller (Requests vs Limits)](lesson-25-resource-requests-limits-and-quotas.md) | Complete |
+| 20 | [ConfigMaps and Secrets](lesson-20-configmaps-and-secrets.md) | Complete |
+| 21 | [Resource Management and the OOMKiller (Requests vs Limits)](lesson-21-resource-requests-limits-and-quotas.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

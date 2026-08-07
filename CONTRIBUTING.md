@@ -126,7 +126,7 @@ The same checks run automatically in the repository's CI workflow.
 
 Use conventional, meaningful commit messages:
 
-- `docs: add Lesson 10 Pods in Depth`
+- `docs: add Lesson 6 Pods in Depth`
 - `docs: improve Deployment rollout diagrams`
 - `docs: add interview questions for ConfigMaps`
 - `refactor: reorganize networking section`

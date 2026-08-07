@@ -38,7 +38,7 @@ The entire system runs on one simple and elegant idea: **you declare the desired
 | **kube-proxy** | A network agent that runs per node. | It programs `iptables` (or `ipvs`) rules so that traffic to a Service's ClusterIP and Port is network-address-translated (DNAT) and forwarded to the Pods behind that Service. | It is how "Service" abstractions become real, working network routes to the appropriate Pods. |
 | **CNI plugin** | The container-network-interface plugin (Calico, Cilium, Flannel). | It wires up each Pod's virtual network interface so Pods on any node can reach each other, and it provides pod IP assignment. | It is Pod-to-Pod networking. Without it Pods cannot communicate across nodes. |
 
-### Scheduling and Taints (Lesson 07)
+### Scheduling and Taints (Lesson 3)
 
 The scheduler uses a two-phase algorithm (filter, then score).
 
@@ -234,9 +234,9 @@ User -> cloud LB -> Ingress -> Service (kube-proxy DNAT) -> Pod -> container
 
 ## Related Lessons
 
-- [Lesson 07 - Worker Node Architecture](../docs/02-architecture/lesson-07-worker-node-architecture.md)
-- [Lesson 17 - Pod Priority and Preemption](../docs/02-architecture/lesson-17-pod-priority-and-preemption.md)
-- [Lesson 25 - Node Affinity and Anti-Affinity](../docs/02-architecture/lesson-25-node-affinity-and-anti-affinity.md)
+- [Lesson 3 - Controlling Where Pods Run (Scheduling and Taints)](../docs/02-architecture/lesson-03-worker-node-architecture.md)
+- [Lesson 4 - Pod Priority and Preemption](../docs/02-architecture/lesson-04-pod-priority-and-preemption.md)
+- [Lesson 5 - Node Affinity and Pod Anti-Affinity](../docs/02-architecture/lesson-05-node-affinity-and-anti-affinity.md)
 
 ## Related Material
 

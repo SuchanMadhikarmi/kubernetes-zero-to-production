@@ -1,8 +1,8 @@
 # Kubernetes Zero to Production
 
-![lessons](https://img.shields.io/badge/lessons-47-blue) ![modules](https://img.shields.io/badge/modules-14-brightgreen) ![labs](https://img.shields.io/badge/labs-35-orange) ![license](https://img.shields.io/badge/license-Apache%202.0-blue)
+![lessons](https://img.shields.io/badge/lessons-46-blue) ![modules](https://img.shields.io/badge/modules-14-brightgreen) ![labs](https://img.shields.io/badge/labs-42-orange) ![license](https://img.shields.io/badge/license-Apache%202.0-blue)
 
-A production-oriented, end-to-end Kubernetes learning repository. It takes you from absolute beginner to production-ready operator through **47 sequential lessons**, **35 hands-on labs**, and a complete ecosystem of manifests, diagrams, cheat sheets, revision notes, and interview guides built around one consistent structure.
+A production-oriented, end-to-end Kubernetes learning repository. It takes you from absolute beginner to production-ready operator through **46 sequential lessons**, **42 hands-on labs**, and a complete ecosystem of manifests, diagrams, cheat sheets, revision notes, and interview guides built around one consistent structure.
 
 > If you learn better by doing, start here. If you are preparing for an interview or a certification, this repository is built for you too. Everything follows the same template, so nothing surprises you.
 
@@ -31,7 +31,7 @@ Kubernetes documentation is spread across hundreds of pages, and most tutorials 
 
 It is a single, structured path that pairs deep explanations with real practice:
 
-- A **curriculum of 47 lessons** organized into **14 modules**, each written to one consistent template.
+- A **curriculum of 46 lessons** organized into **14 modules**, each written to one consistent template.
 - Every hands-on topic has a **matching lab** with exact commands and expected output.
 - Ready-to-use **manifests**, **diagrams**, **cheat sheets**, **revision notes**, and **interview questions** support every module.
 
@@ -43,7 +43,7 @@ Most Kubernetes content shares one of two problems: it is either so shallow that
 
 - **Sequenced and progressive** - each module depends on the previous one, so concepts are introduced in the order you need them.
 - **Production-minded** - every lesson covers the difference between "will run" and "safe in production".
-- **Uniform** - one lesson template across all 47 lessons, so once you learn the structure you can skim any topic.
+- **Uniform** - one lesson template across all 46 lessons, so once you learn the structure you can skim any topic.
 - **Practice-first** - labs, manifests, and scripts are part of the core, not an afterthought.
 - **Interview- and exam-ready** - dedicated interview guides and exam-focused lessons (CKA, CKAD, CKS).
 
@@ -51,16 +51,16 @@ Most Kubernetes content shares one of two problems: it is either so shallow that
 
 | Area | Count | Directory |
 |------|-------|-----------|
-| Lessons | 47 | [docs/](docs/README.md) |
+| Lessons | 46 | [docs/](docs/README.md) |
 | Curriculum modules | 14 | [docs/](docs/README.md) |
-| Hands-on labs | 35 | [labs/](labs/README.md) |
+| Hands-on labs | 42 | [labs/](labs/README.md) |
 | Kubernetes manifests | 20 | [manifests/](manifests/README.md) |
 | Architecture diagrams | 6 | [diagrams/](diagrams/README.md) |
-| Static assets | 2 | [assets/](assets/README.md) |
+| Static assets | 3 | [assets/](assets/README.md) |
 | Cheat sheets | 13 | [cheatsheets/](cheatsheets/README.md) |
 | Revision notes | 13 | [revision/](revision/README.md) |
 | Interview guides | 12 | [interview/](interview/README.md) |
-| Helper scripts | 4 | [scripts/](scripts/README.md) |
+| Helper scripts | 6 | [scripts/](scripts/README.md) |
 
 ## Navigating the Repository
 
@@ -68,7 +68,7 @@ Learn where everything lives, what it is for, and when to open it.
 
 | Path | What It Holds | When To Use It |
 |------|---------------|----------------|
-| [docs/](docs/README.md) | The full 47-lesson curriculum, organized into 14 numbered modules. Each module README is a topics list with links to every lesson. | Your main study path. Always start here. |
+| [docs/](docs/README.md) | The full 46-lesson curriculum, organized into 14 numbered modules. Each module README is a topics list with links to every lesson. | Your main study path. Always start here. |
 | [docs/README.md](docs/README.md) | The documentation hub - a list of all 14 modules. | Land you to jump to a specific module or to review the whole plan. |
 | [labs/](labs/README.md) | Step-by-step lab exercises with commands and expected output. | After reading a hands-on lesson, practise here. |
 | [manifests/](manifests/README.md) | Ready-to-use Kubernetes YAML, ordered by module. | Copy, adapt, and verify while following a lesson or lab. |
@@ -85,7 +85,7 @@ Every directory has its own README, so you can drop into any folder and find its
 
 ## The Curriculum at a Glance
 
-The 47 lessons are grouped into four progressive stages.
+The 46 lessons are grouped into four progressive stages.
 
 | Stage | Focus | Modules |
 |-------|-------|---------|
@@ -96,20 +96,20 @@ The 47 lessons are grouped into four progressive stages.
 
 | Module | Lessons | Focus | Status |
 |--------|---------|-------|--------|
-| [01 Fundamentals](docs/01-fundamentals/README.md) | 1, 23 | Kubernetes basics and kubectl | Complete |
-| [02 Architecture](docs/02-architecture/README.md) | 7, 17, 25 | Control plane and worker node internals | Complete |
-| [03 Workloads](docs/03-workloads/README.md) | 10-15, 22, 38 | Pods, Deployments, StatefulSets and more | Complete |
-| [04 Networking](docs/04-networking/README.md) | 16-19, 33, 37 | Networking, Services, Ingress, Network Policies | Complete |
-| [05 Storage](docs/05-storage/README.md) | 20 | Volumes, Persistent Volumes, Storage Classes | Complete |
-| [06 Configuration](docs/06-configuration/README.md) | 23, 25 | ConfigMaps, Secrets, resource management | Complete |
-| [07 Security](docs/07-security/README.md) | 27, 31 | Authentication, RBAC, Pod Security Standards | Complete |
-| [08 Observability](docs/08-observability/README.md) | 30-32, 43-44 | Monitoring, logging, probes | Complete |
-| [09 Packaging](docs/09-packaging/README.md) | 33, 39 | Helm and packaging | Complete |
-| [10 GitOps](docs/10-gitops/README.md) | 35, 45 | GitOps principles, Argo CD pipelines | Complete |
-| [11 Operators](docs/11-operators/README.md) | 32, 34 | CRDs and the Operator pattern | Complete |
-| [12 Production](docs/12-production/README.md) | 24, 26, 28, 35-36, 46 | Autoscaling, HA, hardening, capacity, delivery | Complete |
-| [13 Troubleshooting](docs/13-troubleshooting/README.md) | 27, 29 | Workload, node, and network debugging | Complete |
-| [14 Certifications](docs/14-certifications/README.md) | 40-42, 47 | CKA, CKAD, CKS exam preparation and capstone | Complete |
+| [01 Fundamentals](docs/01-fundamentals/README.md) | 1-2 | Kubernetes basics and kubectl | Complete |
+| [02 Architecture](docs/02-architecture/README.md) | 3-5 | Control plane and worker node internals | Complete |
+| [03 Workloads](docs/03-workloads/README.md) | 6-12 | Pods, Deployments, StatefulSets and more | Complete |
+| [04 Networking](docs/04-networking/README.md) | 13-18 | Networking, Services, Ingress, Network Policies | Complete |
+| [05 Storage](docs/05-storage/README.md) | 19 | Volumes, Persistent Volumes, Storage Classes | Complete |
+| [06 Configuration](docs/06-configuration/README.md) | 20-21 | ConfigMaps, Secrets, resource management | Complete |
+| [07 Security](docs/07-security/README.md) | 22-23 | Authentication, RBAC, Pod Security Standards | Complete |
+| [08 Observability](docs/08-observability/README.md) | 24-28 | Monitoring, logging, probes | Complete |
+| [09 Packaging](docs/09-packaging/README.md) | 29-30 | Helm and packaging | Complete |
+| [10 GitOps](docs/10-gitops/README.md) | 31-32 | GitOps principles, Argo CD pipelines | Complete |
+| [11 Operators](docs/11-operators/README.md) | 33-34 | CRDs and the Operator pattern | Complete |
+| [12 Production](docs/12-production/README.md) | 35-40 | Autoscaling, HA, hardening, capacity, delivery | Complete |
+| [13 Troubleshooting](docs/13-troubleshooting/README.md) | 41-42 | Workload, node, and network debugging | Complete |
+| [14 Certifications](docs/14-certifications/README.md) | 43-46 | CKA, CKAD, CKS exam preparation and capstone | Complete |
 
 ## How to Get the Most Out of It
 

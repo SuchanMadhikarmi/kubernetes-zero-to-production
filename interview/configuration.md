@@ -46,6 +46,6 @@ A: Check memory usage with `kubectl top pod`, raise the container memory `limits
 ## Related
 
 - [Revision - Configuration](../revision/configuration.md)
-- [Lesson 25 - Resource Requests, Limits, and Quotas](../docs/06-configuration/lesson-25-resource-requests-limits-and-quotas.md)
+- [Lesson 21 - Resource Management and the OOMKiller (Requests vs Limits)](../docs/06-configuration/lesson-21-resource-requests-limits-and-quotas.md)
 
 [Back to Interview Index](README.md)

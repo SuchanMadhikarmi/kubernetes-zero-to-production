@@ -268,11 +268,11 @@ For each pillar:
 
 ## Related Lessons
 
-- [Lesson 30 - Monitoring and Metrics](../docs/08-observability/lesson-30-monitoring-and-metrics.md)
-- [Lesson 31 - Logging](../docs/08-observability/lesson-31-logging.md)
-- [Lesson 32 - Probes and Health Checks](../docs/08-observability/lesson-32-probes-and-health-checks.md)
-- [Lesson 43 - Observability Deep Dive (Prometheus and Grafana)](../docs/08-observability/lesson-43-observability-deep-dive-prometheus-and-grafana.md)
-- [Lesson 44 - Centralized Logging (Loki and Promtail)](../docs/08-observability/lesson-44-centralized-logging-loki-and-promtail.md)
+- [Lesson 24 - Monitoring and Metrics](../docs/08-observability/lesson-24-monitoring-and-metrics.md)
+- [Lesson 25 - Logging](../docs/08-observability/lesson-25-logging.md)
+- [Lesson 26 - Probes and Health Checks](../docs/08-observability/lesson-26-probes-and-health-checks.md)
+- [Lesson 27 - Observability Deep Dive (Prometheus and Grafana)](../docs/08-observability/lesson-27-observability-deep-dive-prometheus-and-grafana.md)
+- [Lesson 28 - Centralized Logging (Loki and Promtail)](../docs/08-observability/lesson-28-centralized-logging-loki-and-promtail.md)
 
 ## Related Material
 

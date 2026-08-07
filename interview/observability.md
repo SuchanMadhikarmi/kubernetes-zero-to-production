@@ -46,6 +46,6 @@ A: `kubectl top` fails and the HPA shows `<unknown>` targets. Fix by checking th
 ## Related
 
 - [Revision - Observability](../revision/observability.md)
-- [Lesson 32 - Probes and Health Checks](../docs/08-observability/lesson-32-probes-and-health-checks.md)
+- [Lesson 26 - Probes and Health Checks](../docs/08-observability/lesson-26-probes-and-health-checks.md)
 
 [Back to Interview Index](README.md)

@@ -48,7 +48,7 @@ By the end of this lesson you will be able to:
 - Completion of Lessons 1 through 33, specifically Lesson 32 on CRDs.
 - A running kind cluster.
 - `kubectl` installed and configured.
-- Helm CLI installed (covered in Module 09/Lesson 15).
+- Helm CLI installed (covered in Module 09/Lesson 10).
 
 ## Real-world Motivation
 
@@ -567,9 +567,9 @@ Key facts:
 
 ## Related Lessons
 
-- [Lesson 32 - Extending Kubernetes (CRDs and Operators)](lesson-32-extending-kubernetes-crds-and-operators.md) - the CRD foundation this lesson builds on.
-- [Lesson 25 - Resource Requests, Limits, and Quotas](../06-configuration/lesson-25-resource-requests-limits-and-quotas.md) - how the Operator requests resources for managed Pods.
-- [Lesson 27 - RBAC and Service Accounts](../07-security/lesson-27-rbac-and-service-accounts.md) - the RBAC that grants Operators their permissions.
+- [Lesson 33 - Extending Kubernetes (CRDs and Operators)](lesson-33-extending-kubernetes-crds-and-operators.md) - the CRD foundation this lesson builds on.
+- [Lesson 21 - Resource Management and the OOMKiller (Requests vs Limits)](../06-configuration/lesson-21-resource-requests-limits-and-quotas.md) - how the Operator requests resources for managed Pods.
+- [Lesson 11 - RBAC and Service Accounts](../07-security/lesson-22-rbac-and-service-accounts.md) - the RBAC that grants Operators their permissions.
 
 ## Coming Next
 

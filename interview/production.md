@@ -40,7 +40,7 @@ A: Identify what fills the disk (container logs, images, emptyDir) with `kubectl
 ## Related
 
 - [Revision - Production](../revision/production.md)
-- [Lesson 26 - Horizontal Pod Autoscaler](../docs/12-production/lesson-26-horizontal-pod-autoscaler.md)
-- [Lesson 35 - Backups and Disaster Recovery with Velero](../docs/12-production/lesson-35-backups-and-disaster-recovery-with-velero.md)
+- [Lesson 36 - Horizontal Pod Autoscaler](../docs/12-production/lesson-36-horizontal-pod-autoscaler.md)
+- [Lesson 38 - Backups and Disaster Recovery with Velero](../docs/12-production/lesson-38-backups-and-disaster-recovery-with-velero.md)
 
 [Back to Interview Index](README.md)

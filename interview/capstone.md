@@ -44,6 +44,6 @@ tags: [interview, capstone, cka, career, STAR]
 ## Related
 
 - [Revision - Certifications](../revision/certifications.md)
-- [Lesson 47 - The Capstone](../docs/14-certifications/lesson-47-the-capstone-architecture-career-and-interview-mastery.md)
+- [Lesson 46 - The Capstone (Architecture, Career and Interview Mastery)](../docs/14-certifications/lesson-46-the-capstone-architecture-career-and-interview-mastery.md)
 
 [Back to Interview Index](README.md)

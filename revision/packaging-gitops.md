@@ -288,10 +288,10 @@ Memory trick: GitHub Actions is the **factory robot** that builds parts and upda
 
 ## Related Lessons
 
-- [Lesson 33 - Helm](../docs/09-packaging/lesson-33-helm.md)
-- [Lesson 39 - Helm Deep Dive (Writing Production Charts)](../docs/09-packaging/lesson-39-helm-deep-dive-writing-production-charts.md)
-- [Lesson 35 - GitOps Principles and Practices](../docs/10-gitops/lesson-35-gitops-principles-and-practices.md)
-- [Lesson 45 - CI/CD Pipelines (GitHub Actions + ArgoCD)](../docs/10-gitops/lesson-45-cicd-pipelines-github-actions-and-argocd.md)
+- [Lesson 29 - Helm](../docs/09-packaging/lesson-29-helm.md)
+- [Lesson 30 - Helm Deep Dive (Writing Production Charts)](../docs/09-packaging/lesson-30-helm-deep-dive-writing-production-charts.md)
+- [Lesson 31 - GitOps Principles and Practices](../docs/10-gitops/lesson-31-gitops-principles-and-practices.md)
+- [Lesson 32 - CI/CD Pipelines (GitHub Actions and ArgoCD)](../docs/10-gitops/lesson-32-cicd-pipelines-github-actions-and-argocd.md)
 
 ## Related Material
 

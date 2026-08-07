@@ -8,9 +8,10 @@ Module 02 goes inside the cluster. It explains the control plane and worker node
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 7 | [Controlling Where Pods Run (Scheduling and Taints)](lesson-07-worker-node-architecture.md) | Complete |
-| 17 | [Pod Priority and Preemption](lesson-17-pod-priority-and-preemption.md) | Complete |
-| 25 | [Node Affinity and Pod Anti-Affinity](lesson-25-node-affinity-and-anti-affinity.md) | Complete |
+| 3 | [Controlling Where Pods Run (Scheduling and Taints)](lesson-03-worker-node-architecture.md) | Complete |
+| 4 | [Pod Priority and Preemption](lesson-04-pod-priority-and-preemption.md) | Complete |
+| 5 | [Node Affinity and Pod Anti-Affinity](lesson-05-node-affinity-and-anti-affinity.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

@@ -241,7 +241,7 @@ Always start with `kubectl describe pvc` and `kubectl get events -A` — they su
 
 ## Related Lessons
 
-- [Lesson 20 - Persistent Storage (PV, PVC, StorageClass)](../docs/05-storage/lesson-20-persistent-storage-pv-pvc-sc.md)
+- [Lesson 19 - Persistent Storage (PVs, PVCs, and StorageClasses)](../docs/05-storage/lesson-19-persistent-storage-pv-pvc-sc.md)
 
 ## Related Material
 

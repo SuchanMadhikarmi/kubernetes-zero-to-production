@@ -8,8 +8,9 @@ Module 10 covers GitOps, the pattern of using Git as the single source of truth 
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 35 | [GitOps Principles and Practices](lesson-35-gitops-principles-and-practices.md) | Complete |
-| 45 | [CI/CD Pipelines (GitHub Actions and ArgoCD)](lesson-45-cicd-pipelines-github-actions-and-argocd.md) | Complete |
+| 31 | [GitOps Principles and Practices](lesson-31-gitops-principles-and-practices.md) | Complete |
+| 32 | [CI/CD Pipelines (GitHub Actions and ArgoCD)](lesson-32-cicd-pipelines-github-actions-and-argocd.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

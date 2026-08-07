@@ -46,6 +46,6 @@ A: It is a Gateway server error, likely the backend Service has no healthy endpo
 ## Related
 
 - [Revision - Networking](../revision/networking.md)
-- [Lesson 18 - Ingress and Ingress Controllers](../docs/04-networking/lesson-18-ingress-and-ingress-controllers.md)
+- [Lesson 15 - Ingress and Ingress Controllers](../docs/04-networking/lesson-15-ingress-and-ingress-controllers.md)
 
 [Back to Interview Index](README.md)

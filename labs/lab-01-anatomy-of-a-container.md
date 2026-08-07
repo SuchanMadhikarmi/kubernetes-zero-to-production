@@ -1,4 +1,4 @@
-# Lab 01 - The Anatomy of a Container
+# Lab 1 - The Anatomy of a Container
 
 ## Objective
 

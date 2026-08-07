@@ -210,10 +210,10 @@ Aliases (`k`, `do`) set at exam start; `dry-run=client -o yaml` generates base Y
 
 ## Related Lessons
 
-- [Lesson 40 - CKA Exam Masterclass](../docs/14-certifications/lesson-40-cka-exam-masterclass.md)
-- [Lesson 41 - Cluster Architecture and the Kubeconfig File](../docs/14-certifications/lesson-41-cluster-architecture-and-the-kubeconfig-file.md)
-- [Lesson 42 - etcd Backup and Restore](../docs/14-certifications/lesson-42-etcd-backup-and-restore.md)
-- [Lesson 47 - The Capstone](../docs/14-certifications/lesson-47-the-capstone-architecture-career-and-interview-mastery.md)
+- [Lesson 43 - CKA Exam Masterclass (Speed and Shortcut Techniques)](../docs/14-certifications/lesson-43-cka-exam-masterclass.md)
+- [Lesson 44 - Cluster Architecture and the Kubeconfig File](../docs/14-certifications/lesson-44-cluster-architecture-and-the-kubeconfig-file.md)
+- [Lesson 45 - etcd Backup and Restore](../docs/14-certifications/lesson-45-etcd-backup-and-restore.md)
+- [Lesson 46 - The Capstone (Architecture, Career and Interview Mastery)](../docs/14-certifications/lesson-46-the-capstone-architecture-career-and-interview-mastery.md)
 
 ## Related Material
 

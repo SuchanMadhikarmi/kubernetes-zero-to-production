@@ -40,6 +40,6 @@ A: Restore etcd from the latest backup to one member, let it form quorum again, 
 ## Related
 
 - [Revision - Architecture](../revision/architecture.md)
-- [Lesson 42 - etcd Backup and Restore](../docs/14-certifications/lesson-42-etcd-backup-and-restore.md)
+- [Lesson 45 - etcd Backup and Restore](../docs/14-certifications/lesson-45-etcd-backup-and-restore.md)
 
 [Back to Interview Index](README.md)

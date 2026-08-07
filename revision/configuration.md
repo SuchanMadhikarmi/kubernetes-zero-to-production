@@ -271,8 +271,8 @@ spec:
 
 ## Related Lessons
 
-- [Lesson 23 - ConfigMaps and Secrets](../docs/06-configuration/lesson-23-configmaps-and-secrets.md)
-- [Lesson 25 - Resource Requests, Limits, and Quotas](../docs/06-configuration/lesson-25-resource-requests-limits-and-quotas.md)
+- [Lesson 20 - ConfigMaps and Secrets](../docs/06-configuration/lesson-20-configmaps-and-secrets.md)
+- [Lesson 21 - Resource Management and the OOMKiller (Requests vs Limits)](../docs/06-configuration/lesson-21-resource-requests-limits-and-quotas.md)
 
 ## Related Material
 

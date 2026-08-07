@@ -8,12 +8,13 @@ Module 04 explains how networking works in Kubernetes: the container network int
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 16 | [Networking Fundamentals and the CNI](lesson-16-networking-fundamentals-and-the-cni.md) | Complete |
-| 17 | [Services and Cluster Networking](lesson-17-services-and-cluster-networking.md) | Complete |
-| 18 | [Ingress and Ingress Controllers](lesson-18-ingress-and-ingress-controllers.md) | Complete |
-| 19 | [Network Policies](lesson-19-network-policies.md) | Complete |
-| 33 | [End-to-End Traffic Flow and the 502 Bad Gateway](lesson-33-end-to-end-traffic-flow-and-the-502-bad-gateway.md) | Complete |
-| 37 | [Service Mesh (Istio and Linkerd)](lesson-37-service-mesh-istio-and-linkerd.md) | Complete |
+| 13 | [Networking Fundamentals and the CNI](lesson-13-networking-fundamentals-and-the-cni.md) | Complete |
+| 14 | [Services and Cluster Networking](lesson-14-services-and-cluster-networking.md) | Complete |
+| 15 | [Ingress and Ingress Controllers](lesson-15-ingress-and-ingress-controllers.md) | Complete |
+| 16 | [Network Policies](lesson-16-network-policies.md) | Complete |
+| 17 | [End-to-End Traffic Flow and the 502 Bad Gateway](lesson-17-end-to-end-traffic-flow-and-the-502-bad-gateway.md) | Complete |
+| 18 | [Service Mesh (Istio and Linkerd)](lesson-18-service-mesh-istio-and-linkerd.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

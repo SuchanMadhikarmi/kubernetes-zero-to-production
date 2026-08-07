@@ -50,6 +50,6 @@ A: Likely no `volumeClaimTemplates` (stateless PVC), or the PVC was deleted (wro
 ## Related
 
 - [Revision - Storage](../revision/storage.md)
-- [Lesson 20 - Persistent Storage (PV, PVC, StorageClass)](../docs/05-storage/lesson-20-persistent-storage-pv-pvc-sc.md)
+- [Lesson 19 - Persistent Storage (PVs, PVCs, and StorageClasses)](../docs/05-storage/lesson-19-persistent-storage-pv-pvc-sc.md)
 
 [Back to Interview Index](README.md)

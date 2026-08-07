@@ -303,12 +303,12 @@ spec:
 
 ## Related Lessons
 
-- [Lesson 16 - Networking Fundamentals and the CNI](../docs/04-networking/lesson-16-networking-fundamentals-and-the-cni.md)
-- [Lesson 17 - Services and Cluster Networking](../docs/04-networking/lesson-17-services-and-cluster-networking.md)
-- [Lesson 18 - Ingress and Ingress Controllers](../docs/04-networking/lesson-18-ingress-and-ingress-controllers.md)
-- [Lesson 19 - Network Policies](../docs/04-networking/lesson-19-network-policies.md)
-- [Lesson 33 - End-to-End Traffic Flow and the 502 Bad Gateway](../docs/04-networking/lesson-33-end-to-end-traffic-flow-and-the-502-bad-gateway.md)
-- [Lesson 37 - Service Mesh (Istio and Linkerd)](../docs/04-networking/lesson-37-service-mesh-istio-and-linkerd.md)
+- [Lesson 13 - Networking Fundamentals and the CNI](../docs/04-networking/lesson-13-networking-fundamentals-and-the-cni.md)
+- [Lesson 14 - Services and Cluster Networking](../docs/04-networking/lesson-14-services-and-cluster-networking.md)
+- [Lesson 15 - Ingress and Ingress Controllers](../docs/04-networking/lesson-15-ingress-and-ingress-controllers.md)
+- [Lesson 16 - Network Policies](../docs/04-networking/lesson-16-network-policies.md)
+- [Lesson 17 - End-to-End Traffic Flow and the 502 Bad Gateway](../docs/04-networking/lesson-17-end-to-end-traffic-flow-and-the-502-bad-gateway.md)
+- [Lesson 18 - Service Mesh (Istio and Linkerd)](../docs/04-networking/lesson-18-service-mesh-istio-and-linkerd.md)
 
 ## Related Material
 

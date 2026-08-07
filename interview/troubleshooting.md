@@ -40,6 +40,6 @@ A: Check the Ingress/Service endpoints and the backing deployment; see if Pods c
 ## Related
 
 - [Revision - Troubleshooting](../revision/troubleshooting.md)
-- [Lesson 33 - the 502 Bad Gateway](../docs/04-networking/lesson-33-end-to-end-traffic-flow-and-the-502-bad-gateway.md)
+- [Lesson 17 - End-to-End Traffic Flow and the 502 Bad Gateway](../docs/04-networking/lesson-17-end-to-end-traffic-flow-and-the-502-bad-gateway.md)
 
 [Back to Interview Index](README.md)

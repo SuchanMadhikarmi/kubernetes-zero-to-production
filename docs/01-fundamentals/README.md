@@ -8,8 +8,9 @@ Module 01 establishes the foundation. It explains what Kubernetes is, why contai
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 1 | [The Anatomy of a Container (Namespaces and cgroups)](lesson-01-anatomy-of-a-container.md) | Complete |
-| 23 | [Namespaces and Contexts](lesson-23-namespaces-and-contexts.md) | Complete |
+| 1 | [The Anatomy of a Container](lesson-01-anatomy-of-a-container.md) | Complete |
+| 2 | [Namespaces and Contexts](lesson-02-namespaces-and-contexts.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

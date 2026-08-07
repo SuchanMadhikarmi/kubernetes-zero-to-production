@@ -1,7 +1,7 @@
 ---
 title: Lesson 01 - The Anatomy of a Container
 module: 01 Fundamentals
-lesson: 01
+lesson: 1
 status: Complete
 tags: [kubernetes, containers, namespaces, cgroups, linux, docker]
 ---

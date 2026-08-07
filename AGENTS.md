@@ -7,7 +7,7 @@ This file provides full project context to any AI coding agent (opencode) workin
 - Repository: `kubernetes-zero-to-production`
 - Remote: `https://github.com/SuchanMadhikarmi/kubernetes-zero-to-production.git`
 - Branch: `main`
-- Purpose: A structured, production-oriented Kubernetes learning repository built around 47 sequential lessons
+- Purpose: A structured, production-oriented Kubernetes learning repository built around 46 sequential lessons
 - Audience: Beginners, experienced engineers, interview preparation, revision, portfolio showcase
 - Working directory: `/home/suchan/personalPr/Kuberntetes zero to hero`
 
@@ -78,24 +78,24 @@ LICENSE
 /scripts
 ```
 
-## 47-LESSON CURRICULUM MAP
+## 46-LESSON CURRICULUM MAP
 
 | Module | Lessons | Focus |
 |--------|---------|-------|
-| 01 Fundamentals | 1-5 | Kubernetes basics and kubectl |
-| 02 Architecture | 6-9 | Control plane and worker node internals |
-| 03 Workloads | 10-15 | Pods, ReplicaSets, Deployments, StatefulSets, DaemonSets, Jobs |
-| 04 Networking | 16-19 | CNI, Services, Ingress, Network Policies |
-| 05 Storage | 20-22 | Volumes, PV/PVC, Storage Classes |
-| 06 Configuration | 23-25 | ConfigMaps, Secrets, resource requests/limits/quotas |
-| 07 Security | 26-29 | AuthN/AuthZ, RBAC, ServiceAccounts, Pod Security, image security |
-| 08 Observability | 30-32 | Monitoring, logging, probes |
-| 09 Packaging | 33-34 | Helm, Kustomize |
-| 10 GitOps | 35-36 | GitOps principles, Argo CD, Flux |
-| 11 Operators | 37-38 | CRDs, Operator pattern |
-| 12 Production | 39-42 | Autoscaling, HA/multi-zone, hardening, capacity/cost |
-| 13 Troubleshooting | 43-44 | Workload/node and networking/cluster diagnosis |
-| 14 Certifications | 45-47 | Certification roadmap, CKA, CKAD/CKS |
+| 01 Fundamentals | 1-2 | Kubernetes basics, containers, and kubectl |
+| 02 Architecture | 3-5 | Scheduling, taints, affinity, and worker node internals |
+| 03 Workloads | 6-12 | Pods, Deployments, StatefulSets, DaemonSets, Jobs, Init Containers |
+| 04 Networking | 13-18 | CNI, Services, Ingress, Network Policies, traffic flow, service mesh |
+| 05 Storage | 19 | Volumes, PV/PVC, Storage Classes |
+| 06 Configuration | 20-21 | ConfigMaps, Secrets, resource requests/limits |
+| 07 Security | 22-23 | RBAC, ServiceAccounts, Pod Security, security contexts |
+| 08 Observability | 24-28 | Monitoring, logging, probes, Prometheus, Loki |
+| 09 Packaging | 29-30 | Helm and production chart authoring |
+| 10 GitOps | 31-32 | GitOps principles, Argo CD, CI/CD pipelines |
+| 11 Operators | 33-34 | CRDs, Operator pattern |
+| 12 Production | 35-40 | Autoscaling, HA, upgrades, backups, multi-cluster, progressive delivery |
+| 13 Troubleshooting | 41-42 | Workload/node and networking/cluster diagnosis |
+| 14 Certifications | 43-46 | Certification roadmap, CKA, CKAD/CKS, capstone |
 
 Lesson files follow `lesson-NN-slug.md`. Module indexes list lessons with a Status column (`Planned`, `In Progress`, `Complete`).
 
@@ -206,13 +206,14 @@ Verify all of the following:
 
 ## CURRENT REPOSITORY STATUS
 
-- All 47 lesson files are `Planned` (not yet created)
-- Module indexes exist in all 14 module folders
+- All 46 lesson files are `Complete` and follow the 22-section template
+- Lesson numbering is globally unique and sequential by module (1-46)
+- Module indexes exist in all 14 module folders and reflect the published lessons
 - Documentation hub exists at `docs/README.md`
 - Lesson template exists at `docs/_templates/lesson-template.md`
-- Supporting directories exist with conventions READMEs
+- Supporting directories exist with conventions READMEs (labs, manifests, assets, diagrams, interview, revision, cheatsheets, scripts)
 - Root files exist: README.md, ROADMAP.md, CONTRIBUTING.md, LICENSE, .gitignore
-- Next work: the user supplies Lesson 01 content, and lessons are published one by one
+- Next work: continuous improvement, new labs, and community contributions
 
 ## WORKFLOW WHEN THE USER SAYS "START A NEW LESSON"
 

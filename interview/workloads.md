@@ -49,6 +49,6 @@ A: Read the crash log with `kubectl logs <pod> --previous`, describe the Pod for
 ## Related
 
 - [Revision - Workloads](../revision/workloads.md)
-- [Lesson 13 - StatefulSets](../docs/03-workloads/lesson-13-statefulsets.md)
+- [Lesson 8 - StatefulSets](../docs/03-workloads/lesson-08-statefulsets.md)
 
 [Back to Interview Index](README.md)

@@ -308,8 +308,8 @@ Fix: add an `emptyDir` volume mounted to the path the app writes to (e.g. `/tmp`
 
 ## Related Lessons
 
-- [Lesson 27 - RBAC and Service Accounts](../docs/07-security/lesson-27-rbac-and-service-accounts.md)
-- [Lesson 31 - Locking Down the Container Security Contexts](../docs/07-security/lesson-31-locking-down-the-container-security-contexts.md)
+- [Lesson 22 - RBAC and Service Accounts](../docs/07-security/lesson-22-rbac-and-service-accounts.md)
+- [Lesson 23 - Locking Down the Container (Security Contexts)](../docs/07-security/lesson-23-locking-down-the-container-security-contexts.md)
 
 ## Related Material
 

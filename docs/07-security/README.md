@@ -8,8 +8,9 @@ Module 07 covers Kubernetes security. You will learn authentication and authoriz
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 27 | [RBAC and Service Accounts](lesson-27-rbac-and-service-accounts.md) | Complete |
-| 31 | [Locking Down the Container (Security Contexts)](lesson-31-locking-down-the-container-security-contexts.md) | Complete |
+| 22 | [RBAC and Service Accounts](lesson-22-rbac-and-service-accounts.md) | Complete |
+| 23 | [Locking Down the Container (Security Contexts)](lesson-23-locking-down-the-container-security-contexts.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

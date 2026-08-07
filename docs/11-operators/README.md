@@ -8,8 +8,9 @@ Module 11 covers how to extend Kubernetes. Custom Resources and Custom Resource 
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 32 | [Extending Kubernetes (CRDs and Operators)](lesson-32-extending-kubernetes-crds-and-operators.md) | Complete |
+| 33 | [Extending Kubernetes (CRDs and Operators)](lesson-33-extending-kubernetes-crds-and-operators.md) | Complete |
 | 34 | [Operators in Practice (Managing Stateful Apps)](lesson-34-operators-in-practice.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

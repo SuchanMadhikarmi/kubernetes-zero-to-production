@@ -210,8 +210,8 @@ How kubectl talks to the cluster:
 
 ## Related Lessons
 
-- [Lesson 01 - Anatomy of a Container](../docs/01-fundamentals/lesson-01-anatomy-of-a-container.md)
-- [Lesson 23 - Namespaces and Contexts](../docs/01-fundamentals/lesson-23-namespaces-and-contexts.md)
+- [Lesson 1 - The Anatomy of a Container](../docs/01-fundamentals/lesson-01-anatomy-of-a-container.md)
+- [Lesson 2 - Namespaces and Contexts](../docs/01-fundamentals/lesson-02-namespaces-and-contexts.md)
 
 ## Related Material
 

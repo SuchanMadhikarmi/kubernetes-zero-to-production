@@ -47,6 +47,6 @@ A: The event on the Pod and the webhook/admission controller (Kyverno policy, Po
 ## Related
 
 - [Revision - Security](../revision/security.md)
-- [Lesson 27 - RBAC and Service Accounts](../docs/07-security/lesson-27-rbac-and-service-accounts.md)
+- [Lesson 22 - RBAC and Service Accounts](../docs/07-security/lesson-22-rbac-and-service-accounts.md)
 
 [Back to Interview Index](README.md)

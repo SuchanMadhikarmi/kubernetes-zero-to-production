@@ -259,13 +259,13 @@ Field-by-field: `clusterIP: None` makes the Service **headless**, so DNS resolve
 
 ## Related Lessons
 
-- [Lesson 10 - Pods, ReplicaSets, and Deployments](../docs/03-workloads/lesson-10-pods-replicasets-and-deployments.md)
-- [Lesson 12 - Deployments and Rollout Strategies](../docs/03-workloads/lesson-12-deployments-and-rollout-strategies.md)
-- [Lesson 13 - StatefulSets](../docs/03-workloads/lesson-13-statefulsets.md)
-- [Lesson 14 - DaemonSets](../docs/03-workloads/lesson-14-daemonsets.md)
-- [Lesson 15 - Jobs and CronJobs](../docs/03-workloads/lesson-15-jobs-and-cronjobs.md)
-- [Lesson 22 - Init Containers](../docs/03-workloads/lesson-22-init-containers.md)
-- [Lesson 38 - Advanced Stateful Workloads](../docs/03-workloads/lesson-38-advanced-stateful-workloads.md)
+- [Lesson 6 - Pods, ReplicaSets, and Deployments](../docs/03-workloads/lesson-06-pods-replicasets-and-deployments.md)
+- [Lesson 7 - Deployments and Rollout Strategies](../docs/03-workloads/lesson-07-deployments-and-rollout-strategies.md)
+- [Lesson 8 - StatefulSets](../docs/03-workloads/lesson-08-statefulsets.md)
+- [Lesson 9 - DaemonSets](../docs/03-workloads/lesson-09-daemonsets.md)
+- [Lesson 10 - Jobs and CronJobs](../docs/03-workloads/lesson-10-jobs-and-cronjobs.md)
+- [Lesson 11 - Init Containers](../docs/03-workloads/lesson-11-init-containers.md)
+- [Lesson 12 - Advanced Stateful Workloads (Databases and Message Queues)](../docs/03-workloads/lesson-12-advanced-stateful-workloads.md)
 
 ## Related Material
 

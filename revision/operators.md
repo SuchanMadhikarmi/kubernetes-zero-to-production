@@ -228,7 +228,7 @@ The `status` subresource is not declared on the CRD, or the Operator never write
 
 ## Related Lessons
 
-- [Lesson 32 - Extending Kubernetes with CRDs and Operators](../docs/11-operators/lesson-32-extending-kubernetes-crds-and-operators.md) - CRDs, CRs, and the Operator pattern, including creating a CR before the CRD.
+- [Lesson 33 - Extending Kubernetes (CRDs and Operators)](../docs/11-operators/lesson-33-extending-kubernetes-crds-and-operators.md) - CRDs, CRs, and the Operator pattern, including creating a CR before the CRD.
 - [Lesson 34 - Operators in Practice (Managing Stateful Apps)](../docs/11-operators/lesson-34-operators-in-practice.md) - the reconciliation loop in action, the Redis Operator, and failure recovery.
 
 ## Related Material

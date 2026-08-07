@@ -8,13 +8,14 @@ Module 03 covers the heart of Kubernetes: the Pod and the controllers that manag
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 10 | [Pods, ReplicaSets, and Deployments](lesson-10-pods-replicasets-and-deployments.md) | Complete |
-| 12 | [Deployments and Rollout Strategies](lesson-12-deployments-and-rollout-strategies.md) | Complete |
-| 13 | [StatefulSets](lesson-13-statefulsets.md) | Complete |
-| 14 | [DaemonSets](lesson-14-daemonsets.md) | Complete |
-| 15 | [Jobs and CronJobs](lesson-15-jobs-and-cronjobs.md) | Complete |
-| 22 | [Init Containers](lesson-22-init-containers.md) | Complete |
-| 38 | [Advanced Stateful Workloads (Databases and Message Queues)](lesson-38-advanced-stateful-workloads.md) | Complete |
+| 6 | [Pods, ReplicaSets, and Deployments](lesson-06-pods-replicasets-and-deployments.md) | Complete |
+| 7 | [Deployments and Rollout Strategies](lesson-07-deployments-and-rollout-strategies.md) | Complete |
+| 8 | [StatefulSets](lesson-08-statefulsets.md) | Complete |
+| 9 | [DaemonSets](lesson-09-daemonsets.md) | Complete |
+| 10 | [Jobs and CronJobs](lesson-10-jobs-and-cronjobs.md) | Complete |
+| 11 | [Init Containers](lesson-11-init-containers.md) | Complete |
+| 12 | [Advanced Stateful Workloads (Databases and Message Queues)](lesson-12-advanced-stateful-workloads.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

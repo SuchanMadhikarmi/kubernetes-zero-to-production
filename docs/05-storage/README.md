@@ -8,7 +8,8 @@ Module 05 covers persistent data. Containers are ephemeral by design, so Kuberne
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 20 | [Persistent Storage (PVs, PVCs, and StorageClasses)](lesson-20-persistent-storage-pv-pvc-sc.md) | Complete |
+| 19 | [Persistent Storage (PVs, PVCs, and StorageClasses)](lesson-19-persistent-storage-pv-pvc-sc.md) | Complete |
+
 ## Learning Outcomes
 
 After completing this module you will be able to:

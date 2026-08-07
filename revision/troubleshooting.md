@@ -217,8 +217,8 @@ Order recap: **get pods -> describe pod (events) -> logs (previous) -> dependenc
 
 ## Related Lessons
 
-- [Lesson 27 - SRE Troubleshooting Masterclass](../docs/13-troubleshooting/lesson-27-sre-troubleshooting-masterclass.md)
-- [Lesson 29 - Node Pressure and Evictions](../docs/13-troubleshooting/lesson-29-node-pressure-and-evictions.md)
+- [Lesson 41 - The SRE Troubleshooting Masterclass](../docs/13-troubleshooting/lesson-41-sre-troubleshooting-masterclass.md)
+- [Lesson 42 - Node Pressure and Evictions (Saving the Ship)](../docs/13-troubleshooting/lesson-42-node-pressure-and-evictions.md)
 
 ## Related Material
 

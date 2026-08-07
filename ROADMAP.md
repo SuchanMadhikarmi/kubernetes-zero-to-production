@@ -17,14 +17,14 @@ This document defines the delivery plan, phases, and milestones for the reposito
 
 ## Vision
 
-Build a production-quality, beginner-friendly Kubernetes learning repository of 47 lessons that covers the full journey from "what is a container" to running and operating Kubernetes in production.
+Build a production-quality, beginner-friendly Kubernetes learning repository of 46 lessons that covers the full journey from "what is a container" to running and operating Kubernetes in production.
 
 ## Phases
 
 | Phase | Name | Goal | Status |
 |-------|------|------|--------|
 | 1 | Repository Structure | Complete folder structure, navigation, and project foundations | Complete |
-| 2 | Core Curriculum | Publish all 47 lessons across 14 modules | Complete |
+| 2 | Core Curriculum | Publish all 46 lessons across 14 modules | Complete |
 | 3 | Labs and Manifests | Accompany every hands-on lesson with labs and manifests | Complete |
 | 4 | Interview and Revision | Build interview, revision, and cheat sheet material | Complete |
 | 5 | Community Polish | Refine navigation, add diagrams, and prepare for public contribution | Complete |
@@ -56,7 +56,7 @@ Build a production-quality, beginner-friendly Kubernetes learning repository of 
 
 ### Phase 2: Core Curriculum
 
-- Deliver all 47 lessons following the standardized lesson template
+- Deliver all 46 lessons following the standardized lesson template
 - Every lesson must include the full section list defined in the template
 - Update the progress tracker and module indexes as lessons are published
 - Review each lesson for correctness, consistency, and production readiness
