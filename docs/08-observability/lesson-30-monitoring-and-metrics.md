@@ -504,7 +504,7 @@ Key facts:
 
 - [Lesson 25 - Resource Management and OOMKiller](../06-configuration/lesson-25-resource-requests-limits-and-quotas.md) - resource requests and limits.
 - [Lesson 32 - Probes and Health Checks](lesson-32-probes-and-health-checks.md) - application health.
-- [Lesson 39 - Autoscaling](../12-production/lesson-39-autoscaling.md) - HPA and VPA.
+- [Lesson 26 - Horizontal Pod Autoscaling](../12-production/lesson-26-horizontal-pod-autoscaler.md) - HPA and VPA.
 
 ## Coming Next
 

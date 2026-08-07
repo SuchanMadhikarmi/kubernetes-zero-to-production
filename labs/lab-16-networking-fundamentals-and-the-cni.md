@@ -98,7 +98,7 @@ kubectl delete svc net-app
 
 ## Next Steps
 
-Proceed to [Lesson 17 - Services and Cluster Networking](lesson-17-services-and-cluster-networking.md) to learn about Services in depth.
+Proceed to [Lesson 17 - Services and Cluster Networking](../docs/04-networking/lesson-17-services-and-cluster-networking.md) to learn about Services in depth.
 
 ---
 

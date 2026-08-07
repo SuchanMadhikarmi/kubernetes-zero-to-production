@@ -551,8 +551,8 @@ Key facts:
 ## Related Lessons
 
 - [Lesson 33 - Helm](../09-packaging/lesson-33-helm.md) - packaging applications with Helm.
-- [Lesson 34 - Kustomize](../09-packaging/lesson-34-kustomize.md) - Kubernetes-native configuration management.
-- [Lesson 36 - Argo CD and Flux](lesson-36-argo-cd-and-flux.md) - comparing GitOps tools.
+- [Helm Deep Dive](../09-packaging/lesson-39-helm-deep-dive-writing-production-charts.md) - Kubernetes-native configuration management.
+- [ArgoCD Pipelines](lesson-45-cicd-pipelines-github-actions-and-argocd.md) - comparing GitOps tools.
 
 ## Coming Next
 

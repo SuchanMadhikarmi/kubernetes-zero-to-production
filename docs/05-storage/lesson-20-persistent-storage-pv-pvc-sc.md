@@ -608,8 +608,7 @@ Key facts:
 - [Lesson 01 - The Anatomy of a Container](../01-fundamentals/lesson-01-anatomy-of-a-container.md) - containers, namespaces, and cgroups.
 - [Lesson 10 - Pods, ReplicaSets, and Deployments](../03-workloads/lesson-10-pods-replicasets-and-deployments.md) - how Pods work.
 - [Lesson 13 - StatefulSets](../03-workloads/lesson-13-statefulsets.md) - for stateful workloads that need stable identity and storage.
-- [Lesson 21 - Persistent Volumes and Claims Deep Dive](lesson-21-persistent-volumes-and-claims.md) - advanced PV/PVC topics.
-- [Lesson 22 - Storage Classes and Dynamic Provisioning](lesson-22-storage-classes-and-dynamic-provisioning.md) - advanced StorageClass topics.
+- [Module 05 Storage Index](README.md) - the storage module overview.
 
 ## Coming Next
 

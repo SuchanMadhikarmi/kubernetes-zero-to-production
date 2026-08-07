@@ -158,7 +158,7 @@ kubectl delete deployment rollout-app
 
 ## Next Steps
 
-Proceed to [Lesson 13 - StatefulSets](lesson-13-statefulsets.md) to learn about running stateful applications.
+Proceed to [Lesson 13 - StatefulSets](../docs/03-workloads/lesson-13-statefulsets.md) to learn about running stateful applications.
 
 ---
 

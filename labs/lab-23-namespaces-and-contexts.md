@@ -107,7 +107,7 @@ kubectl config delete-context alpha-context
 
 ## Next Steps
 
-Proceed to [Lesson 24 - kubectl Essentials and Cluster Access](lesson-24-kubectl-essentials-and-cluster-access.md) to learn about kubectl.
+Proceed to [Lesson 24 - kubectl Essentials and Cluster Access](../docs/01-fundamentals/README.md) to learn about kubectl.
 
 ---
 

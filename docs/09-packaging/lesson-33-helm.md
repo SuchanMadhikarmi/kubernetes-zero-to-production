@@ -570,8 +570,8 @@ Key facts:
 ## Related Lessons
 
 - [Lesson 23 - ConfigMaps and Secrets](../06-configuration/lesson-23-configmaps-and-secrets.md) - injecting configuration into Pods.
-- [Lesson 34 - Kustomize](lesson-34-kustomize.md) - the alternative to Helm.
-- [Lesson 35 - GitOps Principles](../10-gitops/lesson-35-gitops-principles.md) - using Git as the source of truth.
+- [Helm Deep Dive](lesson-39-helm-deep-dive-writing-production-charts.md) - writing production charts with Helm.
+- [Lesson 35 - GitOps Principles and Practices](../10-gitops/lesson-35-gitops-principles-and-practices.md) - using Git as the source of truth.
 
 ## Coming Next
 

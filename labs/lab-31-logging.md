@@ -99,7 +99,7 @@ kubectl delete pod multi-app
 
 ## Next Steps
 
-Proceed to [Lesson 32 - Probes and Health Checks](lesson-32-probes-and-health-checks.md) to learn about application health checks.
+Proceed to [Lesson 32 - Probes and Health Checks](../docs/08-observability/lesson-32-probes-and-health-checks.md) to learn about application health checks.
 
 ---
 

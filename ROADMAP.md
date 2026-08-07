@@ -23,26 +23,26 @@ Build a production-quality, beginner-friendly Kubernetes learning repository of 
 
 | Phase | Name | Goal | Status |
 |-------|------|------|--------|
-| 1 | Repository Structure | Complete folder structure, navigation, and project foundations | In Progress |
-| 2 | Core Curriculum | Publish all 47 lessons across 14 modules | Planned |
-| 3 | Labs and Manifests | Accompany every hands-on lesson with labs and manifests | Planned |
-| 4 | Interview and Revision | Build interview, revision, and cheat sheet material | Planned |
-| 5 | Community Polish | Refine navigation, add diagrams, and prepare for public contribution | Planned |
+| 1 | Repository Structure | Complete folder structure, navigation, and project foundations | Complete |
+| 2 | Core Curriculum | Publish all 47 lessons across 14 modules | Complete |
+| 3 | Labs and Manifests | Accompany every hands-on lesson with labs and manifests | Complete |
+| 4 | Interview and Revision | Build interview, revision, and cheat sheet material | Complete |
+| 5 | Community Polish | Refine navigation, add diagrams, and prepare for public contribution | Complete |
 
 ## Milestones
 
-| Milestone | Deliverable | Phase |
-|-----------|-------------|-------|
-| M1 | Repository scaffolded: README, ROADMAP, CONTRIBUTING, LICENSE, folder map | 1 |
-| M2 | Documentation hub and 14 module indexes published | 1 |
-| M3 | Modules 01-03 complete (Fundamentals, Architecture, Workloads) | 2 |
-| M4 | Modules 04-06 complete (Networking, Storage, Configuration) | 2 |
-| M5 | Modules 07-08 complete (Security, Observability) | 2 |
-| M6 | Modules 09-11 complete (Packaging, GitOps, Operators) | 2 |
-| M7 | Modules 12-14 complete (Production, Troubleshooting, Certifications) | 2 |
-| M8 | Labs and manifests published for all hands-on lessons | 3 |
-| M9 | Interview guides, revision notes, and cheat sheets published | 4 |
-| M10 | Full navigation review, link audit, and release-ready polish | 5 |
+| Milestone | Deliverable | Phase | Status |
+|-----------|-------------|-------|--------|
+| M1 | Repository scaffolded: README, ROADMAP, CONTRIBUTING, LICENSE, folder map | 1 | Complete |
+| M2 | Documentation hub and 14 module indexes published | 1 | Complete |
+| M3 | Modules 01-03 complete (Fundamentals, Architecture, Workloads) | 2 | Complete |
+| M4 | Modules 04-06 complete (Networking, Storage, Configuration) | 2 | Complete |
+| M5 | Modules 07-08 complete (Security, Observability) | 2 | Complete |
+| M6 | Modules 09-11 complete (Packaging, GitOps, Operators) | 2 | Complete |
+| M7 | Modules 12-14 complete (Production, Troubleshooting, Certifications) | 2 | Complete |
+| M8 | Labs and manifests published for all hands-on lessons | 3 | Complete |
+| M9 | Interview guides, revision notes, and cheat sheets published | 4 | Complete |
+| M10 | Full navigation review, link audit, and release-ready polish | 5 | Complete |
 
 ## Phase Details
 

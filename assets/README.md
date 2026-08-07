@@ -25,7 +25,7 @@ Images organized by module.
 ## Usage in Markdown
 
 ```markdown
-![Alt text](../assets/module-name/image-name.png)
+![Control Plane](../assets/02-architecture/control-plane.svg)
 ```
 
 [Back to Repository Home](../README.md)

@@ -370,6 +370,6 @@ After completing this lab:
 
 ## Next
 
-- Return to the [Lesson 24 file](../12-production/lesson-24-building-a-3-tier-web-application.md) to review the concepts
+- Return to the [Lesson 24 file](../docs/12-production/lesson-24-building-a-3-tier-web-application.md) to review the concepts
 - Try the advanced task: Deploy a StatefulSet database instead of a Deployment for production-grade storage
 - Proceed to the next lesson to learn about Autoscaling

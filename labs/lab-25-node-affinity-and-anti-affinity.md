@@ -275,6 +275,6 @@ After completing this lab:
 
 ## Next
 
-- Return to the [Lesson 25 file](../02-architecture/lesson-25-node-affinity-and-anti-affinity.md) to review the concepts
+- Return to the [Lesson 25 file](../docs/02-architecture/lesson-25-node-affinity-and-anti-affinity.md) to review the concepts
 - Try the advanced task: Use Pod Affinity (not Anti-Affinity) to co-locate related Pods
 - Proceed to the next lesson to learn about the Kubernetes API and Controllers

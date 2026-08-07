@@ -290,6 +290,6 @@ After completing this lab:
 
 ## Next
 
-- Return to the [Lesson 27 file](../13-troubleshooting/lesson-27-sre-troubleshooting-masterclass.md) to review the concepts
+- Return to the [Lesson 27 file](../docs/13-troubleshooting/lesson-27-sre-troubleshooting-masterclass.md) to review the concepts
 - Try the Mini Project: Create your own broken YAML with 3 errors and fix them
 - Proceed to the next lesson to learn about networking and cluster-level troubleshooting

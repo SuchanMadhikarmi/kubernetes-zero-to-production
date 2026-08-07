@@ -585,8 +585,8 @@ Key facts:
 - [Lesson 01 - The Anatomy of a Container](../01-fundamentals/lesson-01-anatomy-of-a-container.md) - containers, namespaces, and cgroups.
 - [Lesson 10 - Pods, ReplicaSets, and Deployments](../03-workloads/lesson-10-pods-replicasets-and-deployments.md) - how Pods work.
 - [Lesson 23 - ConfigMaps and Secrets](../06-configuration/lesson-23-configmaps-and-secrets.md) - injecting configuration into Pods.
-- [Lesson 26 - Authentication and Authorization](lesson-26-authentication-and-authorization.md) - the full AuthN/AuthZ flow.
-- [Lesson 28 - Security Contexts and Pod Security Standards](lesson-28-security-contexts-and-pod-security-standards.md) - Pod-level security.
+- [Module 07 Security Index](README.md) - authentication, authorization, and RBAC.
+- [Lesson 31 - Container Security Contexts](lesson-31-locking-down-the-container-security-contexts.md) - Pod and container security limits.
 
 ## Coming Next
 

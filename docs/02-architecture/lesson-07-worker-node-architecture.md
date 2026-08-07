@@ -643,7 +643,7 @@ Key facts:
 ## Related Lessons
 
 - [Lesson 01 - The Anatomy of a Container](../01-fundamentals/lesson-01-anatomy-of-a-container.md) - containers, namespaces, and cgroups.
-- [Lesson 06 - Control Plane Architecture](lesson-06-control-plane-architecture.md) - how the control plane components work together.
+- [Module 02 Architecture Index](README.md) - overview of control plane and worker node components.
 - [Lesson 10 - Pods, ReplicaSets, and Deployments](../03-workloads/lesson-10-pods-replicasets-and-deployments.md) - how Pods work.
 - [Lesson 13 - StatefulSets](../03-workloads/lesson-13-statefulsets.md) - for stateful workloads that need stable identity.
 - [Module 12 - Production](../12-production/README.md) - production hardening and capacity planning.

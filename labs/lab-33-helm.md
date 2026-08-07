@@ -155,7 +155,7 @@ cd ..
 
 ## Next Steps
 
-Proceed to [Lesson 34 - Kustomize](../docs/09-packaging/lesson-34-kustomize.md) to learn about the Kubernetes-native alternative to Helm.
+Proceed to [Lesson 34 - Kustomize](../docs/09-packaging/lesson-39-helm-deep-dive-writing-production-charts.md) to learn about the Kubernetes-native alternative to Helm.
 
 ---
 

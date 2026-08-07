@@ -220,6 +220,6 @@ After completing this lab:
 
 ## Next
 
-- Return to the [Lesson 26 file](../12-production/lesson-26-horizontal-pod-autoscaler.md) to review the concepts
+- Return to the [Lesson 26 file](../docs/12-production/lesson-26-horizontal-pod-autoscaler.md) to review the concepts
 - Try the advanced task: Configure HPA with memory-based scaling
 - Proceed to the next lesson to learn about High Availability and Multi-Zone Deployments

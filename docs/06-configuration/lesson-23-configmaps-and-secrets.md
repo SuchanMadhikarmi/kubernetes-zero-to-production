@@ -643,7 +643,7 @@ Key facts:
 
 - [Lesson 01 - The Anatomy of a Container](../01-fundamentals/lesson-01-anatomy-of-a-container.md) - containers, namespaces, and cgroups.
 - [Lesson 10 - Pods, ReplicaSets, and Deployments](../03-workloads/lesson-10-pods-replicasets-and-deployments.md) - how Pods work.
-- [Lesson 24 - Secrets Deep Dive](lesson-24-secrets.md) - advanced Secret management.
+- [Lesson 25 - Resource Requests, Limits, and Quotas](lesson-25-resource-requests-limits-and-quotas.md) - configuring resources.
 - [Lesson 25 - Resource Requests, Limits, and Quotas](lesson-25-resource-requests-limits-and-quotas.md) - resource management.
 - [Module 07 - Security](../07-security/README.md) - RBAC and Pod Security Standards.
 

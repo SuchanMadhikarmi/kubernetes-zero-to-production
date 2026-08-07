@@ -227,7 +227,7 @@ namespace "rbac-test" deleted
 
 ## Next Steps
 
-Proceed to [Lesson 28 - Security Contexts and Pod Security Standards](../docs/07-security/lesson-28-security-contexts-and-pod-security-standards.md) to learn how to restrict what Pods can do at the container level.
+Proceed to [Lesson 28 - Security Contexts and Pod Security Standards](../docs/07-security/lesson-31-locking-down-the-container-security-contexts.md) to learn how to restrict what Pods can do at the container level.
 
 ---
 

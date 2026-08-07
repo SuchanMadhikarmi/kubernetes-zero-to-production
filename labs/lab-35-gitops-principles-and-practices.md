@@ -142,7 +142,7 @@ kubectl delete svc guestbook-ui
 
 ## Next Steps
 
-Proceed to [Lesson 36 - Argo CD and Flux](../docs/10-gitops/lesson-36-argo-cd-and-flux.md) to compare GitOps tools.
+Proceed to [Lesson 36 - Argo CD and Flux](../docs/10-gitops/lesson-45-cicd-pipelines-github-actions-and-argocd.md) to compare GitOps tools.
 
 ---
 
