@@ -12,6 +12,7 @@ Module 12 covers what it takes to run Kubernetes in production: autoscaling, hig
 | 26 | [Horizontal Pod Autoscaler](lesson-26-horizontal-pod-autoscaler.md) | Complete |
 | 28 | [Cluster Upgrades and Maintenance (Cordon and Drain)](lesson-28-cluster-upgrades-and-maintenance.md) | Complete |
 | 35 | [Backups and Disaster Recovery with Velero](lesson-35-backups-and-disaster-recovery-with-velero.md) | Complete |
+| 36 | [Multi-Cluster Kubernetes](lesson-36-multi-cluster-kubernetes.md) | Complete |
 | 39 | Autoscaling: HPA, VPA, and Cluster Autoscaler | Planned |
 | 40 | High Availability and Multi-Zone Deployments | Planned |
 | 41 | Production Hardening and Best Practices | Planned |
