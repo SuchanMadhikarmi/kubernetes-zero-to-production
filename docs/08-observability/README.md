@@ -11,6 +11,7 @@ Module 08 covers how to know what your workloads are doing. You will learn monit
 | 30 | [Monitoring and Metrics](lesson-30-monitoring-and-metrics.md) | Complete |
 | 31 | [Logging](lesson-31-logging.md) | Complete |
 | 32 | [Probes and Health Checks](lesson-32-probes-and-health-checks.md) | Complete |
+| 43 | [Observability Deep Dive (Prometheus and Grafana)](lesson-43-observability-deep-dive-prometheus-and-grafana.md) | Complete |
 
 ## Learning Outcomes
 

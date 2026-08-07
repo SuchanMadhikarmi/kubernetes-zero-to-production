@@ -37,6 +37,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-40-cka-exam-masterclass.md](lab-40-cka-exam-masterclass.md) | 40 | CKA Exam Speed Techniques |
 | [lab-41-cluster-architecture-and-kubeconfig.md](lab-41-cluster-architecture-and-kubeconfig.md) | 41 | Cluster Architecture and Kubeconfig |
 | [lab-42-etcd-backup-and-restore.md](lab-42-etcd-backup-and-restore.md) | 42 | etcd Backup and Restore |
+| [lab-43-prometheus-and-grafana.md](lab-43-prometheus-and-grafana.md) | 43 | Prometheus and Grafana |
 | [lab-17-pod-priority-and-preemption.md](lab-17-pod-priority-and-preemption.md) | 17 | Pod Priority and Preemption |
 | [lab-30-monitoring-and-metrics.md](lab-30-monitoring-and-metrics.md) | 30 | Monitoring and Metrics |
 | [lab-31-logging.md](lab-31-logging.md) | 31 | Logging |
