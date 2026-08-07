@@ -1,155 +1,229 @@
 # Kubernetes Zero to Production
 
-A structured, production-oriented Kubernetes learning repository built around 47 sequential lessons that take you from absolute beginner to production-ready operator.
+![lessons](https://img.shields.io/badge/lessons-47-blue) ![modules](https://img.shields.io/badge/modules-14-brightgreen) ![labs](https://img.shields.io/badge/labs-35-orange) ![license](https://img.shields.io/badge/license-Apache%202.0-blue)
+
+A production-oriented, end-to-end Kubernetes learning repository. It takes you from absolute beginner to production-ready operator through **47 sequential lessons**, **35 hands-on labs**, and a complete ecosystem of manifests, diagrams, cheat sheets, revision notes, and interview guides built around one consistent structure.
+
+> If you learn better by doing, start here. If you are preparing for an interview or a certification, this repository is built for you too. Everything follows the same template, so nothing surprises you.
 
 ## Table of Contents
 
-- [Repository Overview](#repository-overview)
+- [Overview](#overview)
 - [Why This Repository](#why-this-repository)
-- [Repository Goals](#repository-goals)
-- [Learning Roadmap](#learning-roadmap)
-- [Progress Tracker](#progress-tracker)
-- [Folder Map](#folder-map)
+- [What Is Inside](#what-is-inside)
+- [Navigating the Repository](#navigating-the-repository)
+- [The Curriculum at a Glance](#the-curriculum-at-a-glance)
+- [How to Get the Most Out of It](#how-to-get-the-most-out-of-it)
 - [Quick Start](#quick-start)
 - [Prerequisites](#prerequisites)
-- [Recommended Learning Order](#recommended-learning-order)
-- [Contribution Guide](#contribution-guide)
+- [The Lesson Workflow](#the-lesson-workflow)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
 - [Useful Resources](#useful-resources)
+- [FAQ](#faq)
 - [License](#license)
 
 ---
 
-## Repository Overview
+## Overview
 
-This repository is a complete Kubernetes learning path that combines:
+Kubernetes documentation is spread across hundreds of pages, and most tutorials stop at "it works" without ever covering production reality. This repository closes that gap.
 
-- Deep, easy-to-follow documentation
-- Hands-on labs and manifests
-- Interview and certification preparation
-- Revision notes and cheat sheets
-- Production best practices and troubleshooting guides
+It is a single, structured path that pairs deep explanations with real practice:
 
-Every lesson follows a single, consistent template so the learning experience is uniform across the entire curriculum. The material is suitable for beginners, working engineers, interview preparation, and portfolio showcase.
+- A **curriculum of 47 lessons** organized into **14 modules**, each written to one consistent template.
+- Every hands-on topic has a **matching lab** with exact commands and expected output.
+- Ready-to-use **manifests**, **diagrams**, **cheat sheets**, **revision notes**, and **interview questions** support every module.
+
+You can use it as a **learning path**, a **reference handbook**, a **troubleshooting guide**, an **interview preparation kit**, or a **certification study guide**.
 
 ## Why This Repository
 
-Kubernetes documentation is comprehensive but spread across hundreds of pages. Most tutorials stop at "it works" and never cover production reality. This repository bridges that gap by delivering a single, structured path that covers:
+Most Kubernetes content shares one of two problems: it is either so shallow that it stops at the basics, or so scattered that a beginner cannot find a path. This repository solves both:
 
-- Core concepts and architecture
-- Hands-on practice with real manifests
-- Production hardening and operational knowledge
-- Interview, certification, and revision material
+- **Sequenced and progressive** - each module depends on the previous one, so concepts are introduced in the order you need them.
+- **Production-minded** - every lesson covers the difference between "will run" and "safe in production".
+- **Uniform** - one lesson template across all 47 lessons, so once you learn the structure you can skim any topic.
+- **Practice-first** - labs, manifests, and scripts are part of the core, not an afterthought.
+- **Interview- and exam-ready** - dedicated interview guides and exam-focused lessons (CKA, CKAD, CKS).
 
-## Repository Goals
+## What Is Inside
 
-This repository is designed to serve as:
+| Area | Count | Directory |
+|------|-------|-----------|
+| Lessons | 47 | [docs/](docs/README.md) |
+| Curriculum modules | 14 | [docs/](docs/README.md) |
+| Hands-on labs | 35 | [labs/](labs/README.md) |
+| Kubernetes manifests | 20 | [manifests/](manifests/README.md) |
+| Architecture diagrams | 6 | [diagrams/](diagrams/README.md) |
+| Static assets | 2 | [assets/](assets/README.md) |
+| Cheat sheets | 13 | [cheatsheets/](cheatsheets/README.md) |
+| Revision notes | 13 | [revision/](revision/README.md) |
+| Interview guides | 12 | [interview/](interview/README.md) |
+| Helper scripts | 4 | [scripts/](scripts/README.md) |
 
-- Kubernetes Handbook
-- Kubernetes Interview Guide
-- Kubernetes Revision Notes
-- Kubernetes Production Guide
-- Kubernetes Labs
-- Kubernetes Troubleshooting Guide
-- Kubernetes Cheat Sheets
-- Kubernetes Architecture Guide
-- Kubernetes Best Practices Guide
+## Navigating the Repository
 
-## Learning Roadmap
+Learn where everything lives, what it is for, and when to open it.
 
-The curriculum is delivered in four progressive stages. Each stage builds on the previous one.
+| Path | What It Holds | When To Use It |
+|------|---------------|----------------|
+| [docs/](docs/README.md) | The full 47-lesson curriculum, organized into 14 numbered modules. Each module README is a topics list with links to every lesson. | Your main study path. Always start here. |
+| [docs/README.md](docs/README.md) | The documentation hub - a list of all 14 modules. | Land you to jump to a specific module or to review the whole plan. |
+| [labs/](labs/README.md) | Step-by-step lab exercises with commands and expected output. | After reading a hands-on lesson, practise here. |
+| [manifests/](manifests/README.md) | Ready-to-use Kubernetes YAML, ordered by module. | Copy, adapt, and verify while following a lesson or lab. |
+| [diagrams/](diagrams/README.md) | Larger reusable ASCII architecture diagrams. | When a picture is worth a thousand commands. |
+| [assets/](assets/README.md) | Reusable SVG images for documentation. | Embedding visuals in your own notes or slides. |
+| [cheatsheets/](cheatsheets/README.md) | Quick one-page references (kubectl, YAML, networking, security, and more). | During labs, at your desk, or before an interview. |
+| [revision/](revision/README.md) | Condensed per-module revision notes. | Fast re-reading before an interview or exam. |
+| [interview/](interview/README.md) | Topic-wise interview questions and answers. | Interview preparation, role by role. |
+| [scripts/](scripts/README.md) | Helper automation for cluster setup, checks, and cleanup. | Getting a local cluster running in minutes. |
+| [ROADMAP.md](ROADMAP.md) | Delivery plan, phases, and milestones. | Understanding how the project was built. |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Standards for contributing, formatting, and review. | Before you open a pull request. |
 
-| Stage | Focus | Modules | Outcome |
-|-------|-------|---------|---------|
-| 1. Foundation | Core concepts, architecture, and kubectl | 01-02 | Understand how Kubernetes works |
-| 2. Core Engineering | Workloads, networking, storage, configuration | 03-06 | Run and configure real applications |
-| 3. Security and Operations | Security, observability, packaging, GitOps, operators | 07-11 | Operate clusters like a professional |
-| 4. Production and Beyond | Production hardening, troubleshooting, certifications | 12-14 | Prepare for production and exams |
+Every directory has its own README, so you can drop into any folder and find its index and conventions immediately.
 
-See the [ROADMAP](ROADMAP.md) for the full delivery plan and milestones.
+## The Curriculum at a Glance
 
-## Progress Tracker
+The 47 lessons are grouped into four progressive stages.
 
-All 47 lessons are published and marked complete across 14 modules. Labs, manifests, diagrams, revision notes, interview guides, and cheat sheets accompany the curriculum.
+| Stage | Focus | Modules |
+|-------|-------|---------|
+| 1. Foundation | Core concepts, architecture, kubectl | 01-02 |
+| 2. Core Engineering | Workloads, networking, storage, configuration | 03-06 |
+| 3. Security and Operations | Security, observability, packaging, GitOps, operators | 07-11 |
+| 4. Production and Beyond | Production hardening, troubleshooting, certifications | 12-14 |
 
 | Module | Lessons | Focus | Status |
 |--------|---------|-------|--------|
-| [01 Fundamentals](docs/01-fundamentals/README.md) | 1, 23 | Kubernetes basics and kubectl | Complete (2/2) |
-| [02 Architecture](docs/02-architecture/README.md) | 7, 17, 25 | Control plane and worker node internals | Complete (3/3) |
-| [03 Workloads](docs/03-workloads/README.md) | 10-15, 22, 38 | Pods, Deployments, StatefulSets and more | Complete (7/7) |
-| [04 Networking](docs/04-networking/README.md) | 16-19, 33, 37 | Networking, Services, Ingress, Network Policies | Complete (6/6) |
-| [05 Storage](docs/05-storage/README.md) | 20 | Volumes, Persistent Volumes, Storage Classes | Complete (1/1) |
-| [06 Configuration](docs/06-configuration/README.md) | 23, 25 | ConfigMaps, Secrets, resource management | Complete (2/2) |
-| [07 Security](docs/07-security/README.md) | 27, 31 | AuthN/AuthZ, RBAC, Pod Security Standards | Complete (2/2) |
-| [08 Observability](docs/08-observability/README.md) | 30-32, 43-44 | Monitoring, logging, probes | Complete (5/5) |
-| [09 Packaging](docs/09-packaging/README.md) | 33, 39 | Helm and Kustomize | Complete (2/2) |
-| [10 GitOps](docs/10-gitops/README.md) | 35, 45 | GitOps principles, Argo CD, Flux | Complete (2/2) |
-| [11 Operators](docs/11-operators/README.md) | 32, 34 | CRDs and the Operator pattern | Complete (2/2) |
-| [12 Production](docs/12-production/README.md) | 24, 26, 28, 35-36, 46 | Autoscaling, HA, hardening, capacity | Complete (6/6) |
-| [13 Troubleshooting](docs/13-troubleshooting/README.md) | 27, 29 | Workload, node, and network debugging | Complete (2/2) |
-| [14 Certifications](docs/14-certifications/README.md) | 40-42, 47 | CKA, CKAD, CKS exam preparation | Complete (4/4) |
+| [01 Fundamentals](docs/01-fundamentals/README.md) | 1, 23 | Kubernetes basics and kubectl | Complete |
+| [02 Architecture](docs/02-architecture/README.md) | 7, 17, 25 | Control plane and worker node internals | Complete |
+| [03 Workloads](docs/03-workloads/README.md) | 10-15, 22, 38 | Pods, Deployments, StatefulSets and more | Complete |
+| [04 Networking](docs/04-networking/README.md) | 16-19, 33, 37 | Networking, Services, Ingress, Network Policies | Complete |
+| [05 Storage](docs/05-storage/README.md) | 20 | Volumes, Persistent Volumes, Storage Classes | Complete |
+| [06 Configuration](docs/06-configuration/README.md) | 23, 25 | ConfigMaps, Secrets, resource management | Complete |
+| [07 Security](docs/07-security/README.md) | 27, 31 | Authentication, RBAC, Pod Security Standards | Complete |
+| [08 Observability](docs/08-observability/README.md) | 30-32, 43-44 | Monitoring, logging, probes | Complete |
+| [09 Packaging](docs/09-packaging/README.md) | 33, 39 | Helm and packaging | Complete |
+| [10 GitOps](docs/10-gitops/README.md) | 35, 45 | GitOps principles, Argo CD pipelines | Complete |
+| [11 Operators](docs/11-operators/README.md) | 32, 34 | CRDs and the Operator pattern | Complete |
+| [12 Production](docs/12-production/README.md) | 24, 26, 28, 35-36, 46 | Autoscaling, HA, hardening, capacity, delivery | Complete |
+| [13 Troubleshooting](docs/13-troubleshooting/README.md) | 27, 29 | Workload, node, and network debugging | Complete |
+| [14 Certifications](docs/14-certifications/README.md) | 40-42, 47 | CKA, CKAD, CKS exam preparation and capstone | Complete |
 
-Status legend: `Planned`, `In Progress`, `Complete`.
+## How to Get the Most Out of It
 
-## Folder Map
+Read this repository the way you study, but tailor it to your goal.
 
-| Path | Purpose |
-|------|---------|
-| [docs/](docs/README.md) | The 47-lesson curriculum organized into 14 modules |
-| [labs/](labs/README.md) | Hands-on lab exercises that accompany lessons |
-| [manifests/](manifests/README.md) | Ready-to-use Kubernetes YAML manifests |
-| [diagrams/](diagrams/README.md) | Architecture and concept diagrams |
-| [assets/](assets/README.md) | Images and static resources used across the repo |
-| [interview/](interview/README.md) | Interview questions organized by topic |
-| [revision/](revision/README.md) | Condensed revision notes for fast review |
-| [cheatsheets/](cheatsheets/README.md) | Quick-reference cheat sheets |
-| [scripts/](scripts/README.md) | Reusable helper scripts and automation |
-| [ROADMAP.md](ROADMAP.md) | Delivery plan and milestones |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines and standards |
+### Beginner path: follow the modules in order
+
+For a beginner, follow the curriculum in order in `docs/`. The modules are intentionally sequenced, and each depends on the ones before it.
+
+Open the module README, then open the lesson, then run the lab.
+
+### For interview preparation
+
+1. Skim each module's lesson quickly.
+2. Drill the questions in [interview/](interview/README.md) - one file per topic.
+3. Refresh the underlined points in [revision/](revision/README.md).
+4. Review the one-page visuals in [cheatsheets/](cheatsheets/README.md) the morning of the interview.
+
+### For exam preparation (CKA, CKAD, CKS)
+
+1. Follow the curriculum in order through [14 Certifications](docs/14-certifications/README.md).
+2. Re-take the exam masterclass lessons and the attached labs.
+3. Practice the scenario-style questions to match exam conditions.
+
+### For active engineering and troubleshooting
+
+Jump straight to the topic that matches your problem:
+
+- A behaviour or rollout issue? See [Troubleshooting](docs/13-troubleshooting/README.md) and [revision/troubleshooting](./revision/troubleshooting.md).
+- A networking problem? See [04-networking](docs/04-networking/README.md) and the service/ingress diagrams.
+- A resource problem (CPU, memory, OOMKill)? See [06-configuration](docs/06-configuration/README.md).
+
+### Portfolio and mentorship
+
+Use the production-oriented labs (e.g., the 3-tier application, GitOps pipelines, the final capstone) to build real, presentable pieces of portfolio work.
 
 ## Quick Start
 
 ```bash
-# Clone the repository
 git clone https://github.com/SuchanMadhikarmi/kubernetes-zero-to-production.git
 cd kubernetes-zero-to-production
-
-# Start with the first module
-# Recommended reading order: docs/01-fundamentals/README.md
 ```
 
-For hands-on practice you need access to a Kubernetes cluster. See [Prerequisites](#prerequisites).
+Then open the documentation hub to find your starting module:
+
+[Read the Documentation](docs/README.md)
+
+If you have a cluster, you can be running in a few minutes:
+
+```bash
+./scripts/check-cluster.sh
+```
+
+If you do not have a cluster yet, see [Prerequisites](#prerequisites) for a two-line setup.
 
 ## Prerequisites
 
-No Kubernetes knowledge is required to start. A few fundamentals make the journey smoother:
+No Kubernetes knowledge is required to start. The following make the journey smoother:
 
 - Basic command-line (terminal) familiarity
 - Basic YAML and JSON understanding
-- Familiarity with the Linux command line (helpful, not required)
-- Docker or container basics (recommended, covered again in Lesson 02)
+- Linux command-line familiarity (helpful, not required)
+- Container or Docker basics (optional, covered again in the fundamentals)
 
-For hands-on labs you need one local environment:
+For hands-on labs you need one local environment. Use the bundled scripts for the fastest start:
 
-- [kind](https://kind.sigs.k8s.io/) - Kubernetes in Docker, fastest to start
+- [kind](https://kind.sigs.k8s.io/) - Kubernetes in Docker, simplest to start
 - [minikube](https://minikube.sigs.k8s.io/docs/) - local single-node cluster
-- [k3s](https://k3s.io/) - lightweight Kubernetes distribution
+- [k3s](https://k3s.io/) - lightweight Kubernetes
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) - bundled Kubernetes
 - A managed cloud cluster (EKS, AKS, GKE) if you have one
 
-## Recommended Learning Order
+```bash
+# kind (recommended)
+./scripts/setup-kind.sh
 
-Work through the modules in numerical order. The curriculum is intentionally sequenced:
+# or minikube
+./scripts/setup-minikube.sh docker 4 8192
 
-1. Complete `01-fundamentals` and `02-architecture` before anything else. They build the mental model.
-2. Progress through `03` to `08` in order. Each module depends on concepts from the previous one.
-3. `09` to `11` (Helm, GitOps, Operators) assume you are comfortable writing manifests by hand.
-4. `12` to `14` are the production and certification capstone.
+# verify setup
+./scripts/check-cluster.sh
+```
 
-The `revision/` and `cheatsheets/` directories are designed for re-review after finishing the full path.
+See [scripts/README.md](scripts/README.md) for full usage. Clean up lab resources with [cleanup.sh](scripts/cleanup.sh).
 
-## Contribution Guide
+## The Lesson Workflow
 
-Contributions, corrections, and improvements are welcome. Before contributing, read [CONTRIBUTING.md](CONTRIBUTING.md) to understand the lesson template, formatting standards, and review process.
+Every lesson follows one consistent template, so the moment you learn the structure you can move quickly through any topic. Each lesson includes a table of contents, learning objectives, prerequisites, real-world motivation, core concepts, architecture, ASCII diagrams, hands-on exercises, commands, YAML explanations, production notes, best practices, common mistakes, troubleshooting, interview questions, scenarios, a quiz, revision, cheat sheet, references, and related lessons.
+
+The loop the repository encourages:
+
+```text
+Read a lesson        (docs/NN-module/lesson-NN-*.md)
+      |
+      v
+Do the lab            (labs/lab-NN-*.md)
+      |
+      v
+Inspect/adapt manifests (manifests/NN-*/)
+      |
+      v
+Revise                (revision/ + cheatsheets/)
+      |
+      v
+Verify your knowledge (interview/)
+```
+
+## Roadmap
+
+The repository is fully delivered. See [ROADMAP.md](ROADMAP.md) for the phases, milestones, and delivery history.
+
+## Contributing
+
+Contributions, corrections, and improvements are welcome. Before opening a pull request, read [CONTRIBUTING.md](CONTRIBUTING.md) to understand the lesson template, formatting standards, and review process. Every lesson follows one template, and every lesson requires a matching support file where relevant.
 
 ## Useful Resources
 
@@ -158,8 +232,22 @@ Contributions, corrections, and improvements are welcome. Before contributing, r
 - [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - [Kubernetes GitHub Repository](https://github.com/kubernetes/kubernetes)
 - [CKA Exam Curriculum](https://github.com/cncf/curriculum)
-- [Kubernetes Concepts Explained](https://kubernetes.io/docs/concepts/)
+- [Kubernetes Concepts](https://kubernetes.io/docs/concepts/)
+
+## FAQ
+
+**Do I need a cluster to start?**
+No. You can read the entire curriculum without a cluster. You only need one for the labs, and a two-command setup via the scripts.
+
+**Should I read every lesson?**
+Not necessarily. Follow the [pathways](#how-to-get-the-most-out-of-it) to focus on what matches your goal, and pivot labs around your interests.
+
+**Is this a replacement for the official docs?**
+No. It is a structured path through the official ecosystem. Keep the official documentation as the source of truth for the latest detail.
+
+**What Kubernetes versions are covered?**
+The repository targets modern, current K8s releases and covers the terms every operator needs.
 
 ## License
 
-This repository is licensed under the [Apache License 2.0](LICENSE).
+This repository is licensed under [Apache License 2.0](LICENSE). See [LICENSE](LICENSE) for details.

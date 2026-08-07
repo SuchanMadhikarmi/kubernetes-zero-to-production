@@ -53,20 +53,20 @@ See [lesson-template.md](_templates/lesson-template.md) for the full structure.
 
 | Module | Lessons | Lesson Range | Status |
 |--------|---------|--------------|--------|
-| Fundamentals | [README](01-fundamentals/README.md) | 1-5 | In Progress |
-| Architecture | [README](02-architecture/README.md) | 6-9 | Planned |
-| Workloads | [README](03-workloads/README.md) | 10-15 | In Progress |
-| Networking | [README](04-networking/README.md) | 16-19 | Planned |
-| Storage | [README](05-storage/README.md) | 20-22 | Planned |
-| Configuration | [README](06-configuration/README.md) | 23-25 | Planned |
-| Security | [README](07-security/README.md) | 26-29 | In Progress |
-| Observability | [README](08-observability/README.md) | 30-32 | Planned |
-| Packaging | [README](09-packaging/README.md) | 33-34 | Planned |
-| GitOps | [README](10-gitops/README.md) | 35-36 | Planned |
-| Operators | [README](11-operators/README.md) | 37-38 | Planned |
-| Production | [README](12-production/README.md) | 39-42 | Planned |
-| Troubleshooting | [README](13-troubleshooting/README.md) | 43-44 | Planned |
-| Certifications | [README](14-certifications/README.md) | 45-47 | Planned |
+| Fundamentals | [README](01-fundamentals/README.md) | 1, 23 | Complete |
+| Architecture | [README](02-architecture/README.md) | 7, 17, 25 | Complete |
+| Workloads | [README](03-workloads/README.md) | 10-15, 22, 38 | Complete |
+| Networking | [README](04-networking/README.md) | 16-19, 33, 37 | Complete |
+| Storage | [README](05-storage/README.md) | 20 | Complete |
+| Configuration | [README](06-configuration/README.md) | 23, 25 | Complete |
+| Security | [README](07-security/README.md) | 27, 31 | Complete |
+| Observability | [README](08-observability/README.md) | 30-32, 43-44 | Complete |
+| Packaging | [README](09-packaging/README.md) | 33, 39 | Complete |
+| GitOps | [README](10-gitops/README.md) | 35, 45 | Complete |
+| Operators | [README](11-operators/README.md) | 32, 34 | Complete |
+| Production | [README](12-production/README.md) | 24, 26, 28, 35-36, 46 | Complete |
+| Troubleshooting | [README](13-troubleshooting/README.md) | 27, 29 | Complete |
+| Certifications | [README](14-certifications/README.md) | 40-42, 47 | Complete |
 
 ## Supporting Material
 
