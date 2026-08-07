@@ -15,6 +15,7 @@ Module 03 covers the heart of Kubernetes: the Pod and the controllers that manag
 | 14 | [DaemonSets](lesson-14-daemonsets.md) | Complete |
 | 15 | [Jobs and CronJobs](lesson-15-jobs-and-cronjobs.md) | Complete |
 | 22 | [Init Containers](lesson-22-init-containers.md) | Complete |
+| 38 | [Advanced Stateful Workloads (Databases and Message Queues)](lesson-38-advanced-stateful-workloads.md) | Complete |
 
 ## Learning Outcomes
 
