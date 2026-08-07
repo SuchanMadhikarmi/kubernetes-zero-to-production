@@ -9,6 +9,7 @@ Module 13 is a practical guide to diagnosing problems. You will learn structured
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 27 | [The SRE Troubleshooting Masterclass](lesson-27-sre-troubleshooting-masterclass.md) | Complete |
+| 29 | [Node Pressure and Evictions (Saving the Ship)](lesson-29-node-pressure-and-evictions.md) | Complete |
 | 43 | Troubleshooting Workloads and Nodes | Planned |
 | 44 | Troubleshooting Networking and Cluster Issues | Planned |
 
