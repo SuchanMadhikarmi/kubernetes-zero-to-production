@@ -12,6 +12,7 @@ Module 04 explains how networking works in Kubernetes: the container network int
 | 17 | [Services and Cluster Networking](lesson-17-services-and-cluster-networking.md) | Complete |
 | 18 | [Ingress and Ingress Controllers](lesson-18-ingress-and-ingress-controllers.md) | Complete |
 | 19 | [Network Policies](lesson-19-network-policies.md) | Complete |
+| 33 | [End-to-End Traffic Flow and the 502 Bad Gateway](lesson-33-end-to-end-traffic-flow-and-the-502-bad-gateway.md) | Complete |
 
 ## Learning Outcomes
 
