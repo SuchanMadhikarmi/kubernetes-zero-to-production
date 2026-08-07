@@ -13,7 +13,7 @@ Module 14 is the certification capstone. It covers the CNCF Kubernetes certifica
 | 42 | [etcd Backup and Restore](lesson-42-etcd-backup-and-restore.md) | Complete |
 | 45 | Kubernetes Certification Roadmap | Planned |
 | 46 | CKA Exam Guide | Planned |
-| 47 | CKAD and CKS Exam Guides | Planned |
+| 47 | [The Capstone (Architecture, Career and Interview Mastery)](lesson-47-the-capstone-architecture-career-and-interview-mastery.md) | Complete |
 
 ## Learning Outcomes
 

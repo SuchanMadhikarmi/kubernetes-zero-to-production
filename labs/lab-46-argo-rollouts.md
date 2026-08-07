@@ -133,4 +133,4 @@ kubectl delete rollout my-app-rollout
 kubectl delete namespace argo-rollouts
 ```
 
-[Back to Labs](../labs/README.md)
+[Back to Labs](README.md)
