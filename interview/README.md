@@ -14,20 +14,23 @@ A dedicated interview preparation section. Questions are mapped to modules so ca
 - Scenario questions are separated from direct questions
 - Content is updated as the curriculum evolves
 
-## Planned Files
+## Index
+
+All interview guides are complete. Each file groups questions by difficulty (beginner, intermediate, advanced) with scenario questions and model answers.
 
 | File | Topic |
 |------|-------|
-| fundamentals.md | Module 01 |
-| architecture.md | Module 02 |
-| workloads.md | Module 03 |
-| networking.md | Module 04 |
-| storage.md | Module 05 |
-| configuration.md | Module 06 |
-| security.md | Module 07 |
-| observability.md | Module 08 |
-| gitops.md | Modules 09-11 |
-| production.md | Module 12 |
-| troubleshooting.md | Module 13 |
+| [fundamentals.md](fundamentals.md) | Module 01 - containers, namespaces, kubectl |
+| [architecture.md](architecture.md) | Module 02 - control plane, request flow, node failure |
+| [workloads.md](workloads.md) | Module 03 - Pods, Deployments, StatefulSets, probes |
+| [networking.md](networking.md) | Module 04 - Services, Ingress, NetworkPolicy, DNS |
+| [storage.md](storage.md) | Module 05 - PV, PVC, StorageClass, CSI |
+| [configuration.md](configuration.md) | Module 06 - ConfigMaps, Secrets, resources, QoS |
+| [security.md](security.md) | Module 07 - RBAC, ServiceAccounts, Pod Security |
+| [observability.md](observability.md) | Module 08 - Prometheus, Grafana, Loki, probes |
+| [gitops.md](gitops.md) | Modules 09-11 - Helm, Kustomize, ArgoCD, Operators |
+| [production.md](production.md) | Module 12 - HPA, node upgrades, Velero |
+| [troubleshooting.md](troubleshooting.md) | Module 13 - debugging scenarios, diagnosis |
+| [capstone.md](capstone.md) | Module 14 - CKA, STAR method, career strategy |
 
 [Back to Repository Home](../README.md)
