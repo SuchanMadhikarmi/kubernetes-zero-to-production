@@ -86,7 +86,7 @@ All 47 lessons are defined. Each lesson file is created and marked complete as c
 | [11 Operators](docs/11-operators/README.md) | 32, 34, 37-38 | CRDs and the Operator pattern | In Progress (2/3) |
 | [12 Production](docs/12-production/README.md) | 24, 26, 28, 35-36, 39-42 | Autoscaling, HA, hardening, capacity | In Progress (5/6) |
 | [13 Troubleshooting](docs/13-troubleshooting/README.md) | 27, 29, 43-44 | Workload, node, and network debugging | In Progress (2/3) |
-| [14 Certifications](docs/14-certifications/README.md) | 40, 45-47 | CKA, CKAD, CKS exam preparation | In Progress (1/4) |
+| [14 Certifications](docs/14-certifications/README.md) | 40-41, 45-47 | CKA, CKAD, CKS exam preparation | In Progress (2/4) |
 
 Status legend: `Planned`, `In Progress`, `Complete`.
 

@@ -9,6 +9,7 @@ Module 14 is the certification capstone. It covers the CNCF Kubernetes certifica
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 40 | [CKA Exam Masterclass (Speed and Shortcut Techniques)](lesson-40-cka-exam-masterclass.md) | Complete |
+| 41 | [Cluster Architecture and the Kubeconfig File](lesson-41-cluster-architecture-and-the-kubeconfig-file.md) | Complete |
 | 45 | Kubernetes Certification Roadmap | Planned |
 | 46 | CKA Exam Guide | Planned |
 | 47 | CKAD and CKS Exam Guides | Planned |

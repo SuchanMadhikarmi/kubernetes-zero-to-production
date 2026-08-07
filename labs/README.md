@@ -35,6 +35,7 @@ Every lesson with hands-on content should have a matching lab. Labs take the rea
 | [lab-33-helm.md](lab-33-helm.md) | 33 | Helm |
 | [lab-35-gitops-principles-and-practices.md](lab-35-gitops-principles-and-practices.md) | 35 | GitOps Principles and Practices |
 | [lab-40-cka-exam-masterclass.md](lab-40-cka-exam-masterclass.md) | 40 | CKA Exam Speed Techniques |
+| [lab-41-cluster-architecture-and-kubeconfig.md](lab-41-cluster-architecture-and-kubeconfig.md) | 41 | Cluster Architecture and Kubeconfig |
 | [lab-17-pod-priority-and-preemption.md](lab-17-pod-priority-and-preemption.md) | 17 | Pod Priority and Preemption |
 | [lab-30-monitoring-and-metrics.md](lab-30-monitoring-and-metrics.md) | 30 | Monitoring and Metrics |
 | [lab-31-logging.md](lab-31-logging.md) | 31 | Logging |
