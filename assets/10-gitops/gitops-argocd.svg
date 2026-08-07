@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" font-family="monospace" font-size="13">
+  <title>GitOps with ArgoCD</title>
+  <style>
+    .box { fill: #eef7ef; stroke: #4a9a5f; stroke-width: 1.5; }
+    .ac  { fill: #eef2f7; stroke: #4a6fa5; stroke-width: 1.5; }
+    .label { fill: #1b2a41; font-weight: bold; }
+    .sub { fill: #5b6b7c; }
+    .line { stroke: #8aa5c0; stroke-width: 1.5; }
+  </style>
+
+  <rect x="40" y="120" width="200" height="80" rx="8" class="box"/>
+  <text x="140" y="155" text-anchor="middle" class="label">Git (source of truth)</text>
+  <text x="140" y="178" text-anchor="middle" class="sub">manifests / Helm / Kustomize</text>
+
+  <rect x="400" y="120" width="200" height="80" rx="8" class="ac"/>
+  <text x="500" y="155" text-anchor="middle" class="label">ArgoCD</text>
+  <text x="500" y="178" text-anchor="middle" class="sub">poll + compare + sync</text>
+
+  <rect x="720" y="120" width="180" height="80" rx="8" class="box"/>
+  <text x="810" y="155" text-anchor="middle" class="label">Kubernetes</text>
+  <text x="810" y="178" text-anchor="middle" class="sub">desired == live</text>
+
+  <line x1="240" y1="160" x2="400" y2="160" class="line"/>
+  <text x="320" y="150" text-anchor="middle" class="sub">git push (commit)</text>
+
+  <line x1="600" y1="160" x2="720" y2="160" class="line"/>
+  <text x="660" y="150" text-anchor="middle" class="sub">apply</text>
+
+  <line x1="720" y1="180" x2="600" y2="180" class="line" stroke-dasharray="4 3"/>
+  <text x="660" y="210" text-anchor="middle" class="sub">drift detect (selfHeal)</text>
+
+  <text x="460" y="270" text-anchor="middle" class="label">Manual kubectl edit</text>
+  <text x="460" y="290" text-anchor="middle" class="sub">-> Out of Sync -> reverted to Git</text>
+  <text x="460" y="320" text-anchor="middle" class="label">git revert</text>
+  <text x="460" y="340" text-anchor="middle" class="sub">-> cluster rolls back to desired commit</text>
+</svg>

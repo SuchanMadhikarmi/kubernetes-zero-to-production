@@ -13,6 +13,15 @@ Store images, logos, and downloadable resources referenced by the documentation.
 - Use descriptive kebab-case file names
 - Keep file sizes small for fast cloning
 
+## Assets
+
+Images organized by module.
+
+| File | Covers |
+|------|--------|
+| [02-architecture/control-plane.svg](02-architecture/control-plane.svg) | Control plane and worker node component diagram |
+| [10-gitops/gitops-argocd.svg](10-gitops/gitops-argocd.svg) | GitOps pull model with ArgoCD |
+
 ## Usage in Markdown
 
 ```markdown
