@@ -1,0 +1,20 @@
+# Module: 04 Networking | Lesson: 19
+# NetworkPolicy: api allows ingress TCP/8080 only from web pods.
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: api-policy
+spec:
+  podSelector:
+    matchLabels:
+      app: api
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: web
+    ports:
+    - protocol: TCP
+      port: 8080

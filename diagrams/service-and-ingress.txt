@@ -1,0 +1,22 @@
+External traffic
+
++--------+     DNS       +-----------+   HTTP(S) by host/path   +------------+
+| Client | -------------> | Ingress   | -----------------------> | Service    |
++--------+               | Controller|                          | (ClusterIP)|
+                         +-----------+                          +------------+
+                                                                       |
+                                                                       | kube-proxy
+                                                                       | round-robin
+                                                                       v
+                                                                +------+------+
+                                                                | Pod  | Pod  |
+spec.selector: app=web                                             | (app=web) |
+                                                                   +-----------+
+
+Service selector must match Pod labels, else Endpoints is empty.
+
++---------------+             +---------------------+
+|  Service      |             |  Endpoints          |
+|  selector:    | ----------> |  Pod IPs (healthy)  |
+|  app: web     |             | + EndpointsController|
++---------------+             +---------------------+

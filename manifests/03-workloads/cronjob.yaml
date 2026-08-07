@@ -1,0 +1,20 @@
+# Module: 03 Workloads | Lesson: 15
+# A CronJob that runs a Job at 2am daily, one Job at a time.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: backup
+spec:
+  schedule: "0 2 * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: backup
+            image: busybox
+            command: ["sh", "-c", "echo backup running; sleep 5"]

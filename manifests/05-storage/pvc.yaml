@@ -1,0 +1,12 @@
+# Module: 05 Storage | Lesson: 20
+# A PVC requesting 10Gi via the default StorageClass.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: data-pvc
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi

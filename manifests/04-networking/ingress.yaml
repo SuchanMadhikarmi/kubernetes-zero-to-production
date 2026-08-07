@@ -1,0 +1,25 @@
+# Module: 04 Networking | Lesson: 18
+# Ingress rules (requires an Ingress Controller such as NGINX).
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: web
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: app.example.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: web
+            port:
+              number: 80
+  tls:
+  - hosts:
+    - app.example.com
+    secretName: web-tls

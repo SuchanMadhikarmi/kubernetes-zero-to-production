@@ -1,0 +1,15 @@
+# Module: 01 Fundamentals | Lesson: 01
+# A minimal single-container Pod.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  restartPolicy: Always
+  containers:
+  - name: nginx
+    image: nginx:1.25-alpine
+    ports:
+    - containerPort: 80

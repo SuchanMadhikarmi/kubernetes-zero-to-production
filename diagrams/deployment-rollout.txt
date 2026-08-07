@@ -1,0 +1,17 @@
+Deployment -> ReplicaSet (revision N) -> Pods
+
+Rolling update (RollingUpdate):
+
++-------+ image set to v2        +---------------------+
+| Dep   | ---------------------> | new RS v2 (surge)   |
++-------+                        +---------------------+
+      |                                 |
+      v  scaled up                      v  scaled down
++---------------------+          +---------------------+
+| RS v1 (old)         | <------- | RS v2 (new)         |
+| maxUnavailable       |          | becomes stable      |
++---------------------+          +---------------------+
+
+Rollback:  kubectl rollout undo deployment/web
+Pause:     kubectl rollout pause / resume deployment/web
+History:   kubectl rollout history deployment/web

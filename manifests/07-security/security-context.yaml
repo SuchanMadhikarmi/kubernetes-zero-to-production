@@ -1,0 +1,33 @@
+# Module: 07 Security | Lesson: 31
+# A hardened deployment using a non-root Pod and container securityContext.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hardened
+  labels:
+    app: hardened
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: hardened
+  template:
+    metadata:
+      labels:
+        app: hardened
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        fsGroup: 2000
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+      - name: app
+        image: nginx:1.25-alpine
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          capabilities:
+            drop: [ALL]
+            add: [NET_BIND_SERVICE]

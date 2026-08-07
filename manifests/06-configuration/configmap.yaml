@@ -1,0 +1,11 @@
+# Module: 06 Configuration | Lesson: 23
+# A ConfigMap with scalar values and a file-style entry.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_MODE: prod
+  RETRIES: "3"
+  config.json: |
+    {"feature": "on"}

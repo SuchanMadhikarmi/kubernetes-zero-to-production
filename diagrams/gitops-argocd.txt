@@ -1,0 +1,17 @@
+GitOps with ArgoCD (pull model)
+
++-------------+    git push    +--------------------+   poll + compare   +-----------------------+
+|   Devops    | -------------> |  Git (source of    | <----------------- |  ArgoCD controller    |
+|   laptop    |                |  truth, manifests  |   drift detect     +-----------------------+
++-------------+                |  YAML / Helm       |                        |
+                               +--------------------+                        | apply / sync (selfHeal)
+                                                                            v
+                                                               +----------------------------+
+                                                               |  Kubernetes Cluster         |
+                                                               |   desired == live          |
+                                                               +----------------------------+
+
+On manual kubectl edit -> marked Out of Sync -> selfHeal patches back to Git state.
+On git revert            -> ArgoCD rolls the whole cluster back to the desired commit.
+
+Pull model: ArgoCD reaches out to Git, unlike CI/CD tools that push to the cluster.

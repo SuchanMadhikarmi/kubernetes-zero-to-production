@@ -1,0 +1,32 @@
+# Module: 08 Observability | Lesson: 32
+# A Pod with startup, liveness, and readiness HTTP probes.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  containers:
+  - name: web
+    image: nginx:1.25-alpine
+    ports:
+    - containerPort: 80
+    startupProbe:
+      httpGet:
+        path: /healthz
+        port: 80
+      failureThreshold: 30
+      periodSeconds: 2
+    livenessProbe:
+      httpGet:
+        path: /live
+        port: 80
+      periodSeconds: 15
+      failureThreshold: 3
+    readinessProbe:
+      httpGet:
+        path: /ready
+        port: 80
+      initialDelaySeconds: 5
+      periodSeconds: 10

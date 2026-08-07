@@ -1,0 +1,12 @@
+# Module: 05 Storage | Lesson: 20
+# A StorageClass enabling dynamic provisioning with a reclaim policy.
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: ssd
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: gp3
+reclaimPolicy: Delete
+volumeBindingMode: WaitForFirstConsumer
+allowVolumeExpansion: true

@@ -1,0 +1,26 @@
+# Module: 04 Networking | Lesson: 17
+# A ClusterIP Service (and a headless variant for StatefulSets).
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+spec:
+  type: ClusterIP
+  selector:
+    app: web
+  ports:
+  - port: 80
+    targetPort: 80
+---
+# Headless Service used by the db StatefulSet (clusterIP: None).
+apiVersion: v1
+kind: Service
+metadata:
+  name: db
+spec:
+  clusterIP: None
+  selector:
+    app: db
+  ports:
+  - port: 5432
+    targetPort: 5432

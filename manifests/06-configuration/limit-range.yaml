@@ -1,0 +1,18 @@
+# Module: 06 Configuration | Lesson: 25
+# A LimitRange that enforces default resource requests/limits per container.
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: default-limits
+spec:
+  limits:
+  - max:
+      cpu: "2"
+      memory: 2Gi
+    default:
+      cpu: 500m
+      memory: 512Mi
+    defaultRequest:
+      cpu: 100m
+      memory: 128Mi
+    type: Container

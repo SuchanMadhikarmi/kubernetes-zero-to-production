@@ -1,0 +1,25 @@
++------------------------------------------------------------+
+|                        CONTROL PLANE                        |
+|                                                            |
+|   +----------------+    +--------------+                   |
+|   |  API Server    |    |   etcd       |                   |
+|   |  (authn/authz, |<-->| (distributed |                   |
+|   |   admission)   |    |   store)     |                   |
+|   +----------------+    +--------------+                   |
+|          |                                                  |
+|          v                                                  |
+|   +----------------+    +------------------+               |
+|   |   Scheduler    |    | Controller Mgr    |               |
+|   | (pod placement)|    | (reconcile loops) |               |
+|   +----------------+    +------------------+               |
++------------------------------------------------------------+
+        |                          |
+        | kubelet watches API      | ReplicaSet/Node/Endpoints
+        v                          v
++------------------------------------------------------------+
+|                     WORKER NODE                             |
+|                                                            |
+|   kubelet -> CRI (containerd) -> runc -> containers        |
+|   kube-proxy (iptables/ipvs)   -> Service ClusterIP        |
+|   CNI plugin (Calico/Cilium)   -> Pod networking           |
++------------------------------------------------------------+

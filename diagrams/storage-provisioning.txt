@@ -1,0 +1,22 @@
+Storage provisioning flow
+
++----------- PVC spec ---------+        +-----------------------------+
+| accessModes: RWO            |        |  StorageClass (provisioner) |
+| storageClassName: ssd       | =====> |  reclaimPolicy: Delete      |
+| resources: 10Gi             |        +-----------------------------+
++------------------------------+                   |
+                                                  | CSI provisioner
+                                                  v
+                                          +------------------+
+                                          |  Dynamic PV      |
+                                          +------------------+
+                                                  |
+                                        bound <= (capacity + access mode)
+                                                  v
+                                   +-------- PVC -> Pod mount --------+
+
+Lifecycle:
+  Drive works -> PV Bound to PVC -> Pod mounts -> deletes PVC ->
+  ReclaimPolicy: Delete removes PV or Retain keeps data for manual cleanup
+
+Access modes:  RWO (single node) / ROX (many read) / RWX (many read+write)
