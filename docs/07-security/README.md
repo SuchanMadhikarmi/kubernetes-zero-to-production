@@ -8,12 +8,8 @@ Module 07 covers Kubernetes security. You will learn authentication and authoriz
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 26 | Authentication and Authorization | Planned |
 | 27 | [RBAC and Service Accounts](lesson-27-rbac-and-service-accounts.md) | Complete |
-| 28 | Security Contexts and Pod Security Standards | Planned |
-| 29 | Image Security and Software Supply Chain | Planned |
 | 31 | [Locking Down the Container (Security Contexts)](lesson-31-locking-down-the-container-security-contexts.md) | Complete |
-
 ## Learning Outcomes
 
 After completing this module you will be able to:
@@ -31,7 +27,7 @@ After completing this module you will be able to:
 
 ## Related Material
 
-- Lab: `labs/` once published
+- Lab: [labs/](../../labs/README.md)
 
 ## Next Module
 

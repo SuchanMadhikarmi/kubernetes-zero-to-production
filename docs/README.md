@@ -19,19 +19,19 @@ The curriculum is organized into 14 modules. Each module contains a set of seque
 
 | Module | Lessons | Focus | Status |
 |--------|---------|-------|--------|
-| [01 Fundamentals](01-fundamentals/README.md) | 1-5 | Kubernetes basics and kubectl | In Progress (2/5) |
-| [02 Architecture](02-architecture/README.md) | 7, 17, 25, 6, 8, 9 | Control plane and worker node internals | In Progress (3/6) |
-| [03 Workloads](03-workloads/README.md) | 10-15, 22, 38 | Pods, Deployments, StatefulSets and more | Complete (7/8) |
+| [01 Fundamentals](01-fundamentals/README.md) | 1, 23 | Kubernetes basics and kubectl | Complete (2/2) |
+| [02 Architecture](02-architecture/README.md) | 7, 17, 25 | Control plane and worker node internals | Complete (3/3) |
+| [03 Workloads](03-workloads/README.md) | 10-15, 22, 38 | Pods, Deployments, StatefulSets and more | Complete (7/7) |
 | [04 Networking](04-networking/README.md) | 16-19, 33, 37 | Networking, Services, Ingress, Network Policies | Complete (6/6) |
-| [05 Storage](05-storage/README.md) | 20-22 | Volumes, Persistent Volumes, Storage Classes | In Progress (1/3) |
-| [06 Configuration](06-configuration/README.md) | 23-25 | ConfigMaps, Secrets, resource management | Complete (3/3) |
-| [07 Security](07-security/README.md) | 26-29, 31 | Authentication, RBAC, Pod Security Standards | In Progress (2/5) |
+| [05 Storage](05-storage/README.md) | 20 | Volumes, Persistent Volumes, Storage Classes | Complete (1/1) |
+| [06 Configuration](06-configuration/README.md) | 23, 25 | ConfigMaps, Secrets, resource management | Complete (2/2) |
+| [07 Security](07-security/README.md) | 27, 31 | Authentication, RBAC, Pod Security Standards | Complete (2/2) |
 | [08 Observability](08-observability/README.md) | 30-32, 43-44 | Monitoring, logging, probes | Complete (5/5) |
-| [09 Packaging](09-packaging/README.md) | 33-34, 39 | Helm and Kustomize | In Progress (2/3) |
-| [10 GitOps](10-gitops/README.md) | 35-36, 45 | GitOps principles, Argo CD, Flux | In Progress (2/3) |
-| [11 Operators](11-operators/README.md) | 32, 34, 37-38 | CRDs and the Operator pattern | In Progress (2/3) |
-| [12 Production](12-production/README.md) | 24, 26, 28, 35-36, 39-42, 46 | Autoscaling, HA, hardening, capacity | In Progress (6/7) |
-| [13 Troubleshooting](13-troubleshooting/README.md) | 27, 29, 43-44 | Workload, node, and network debugging | In Progress (2/3) |
+| [09 Packaging](09-packaging/README.md) | 33, 39 | Helm and Kustomize | Complete (2/2) |
+| [10 GitOps](10-gitops/README.md) | 35, 45 | GitOps principles, Argo CD, Flux | Complete (2/2) |
+| [11 Operators](11-operators/README.md) | 32, 34 | CRDs and the Operator pattern | Complete (2/2) |
+| [12 Production](12-production/README.md) | 24, 26, 28, 35-36, 46 | Autoscaling, HA, hardening, capacity | Complete (6/6) |
+| [13 Troubleshooting](13-troubleshooting/README.md) | 27, 29 | Workload, node, and network debugging | Complete (2/2) |
 | [14 Certifications](14-certifications/README.md) | 40-42, 47 | CKA, CKAD, CKS exam preparation | Complete (4/4) |
 
 ## How to Use This Repository

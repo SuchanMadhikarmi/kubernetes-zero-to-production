@@ -8,13 +8,9 @@ Module 02 goes inside the cluster. It explains the control plane and worker node
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 6 | Control Plane Architecture | Planned |
-| 7 | [Worker Node Architecture (Scheduling and Taints)](lesson-07-worker-node-architecture.md) | Complete |
+| 7 | [Controlling Where Pods Run (Scheduling and Taints)](lesson-07-worker-node-architecture.md) | Complete |
 | 17 | [Pod Priority and Preemption](lesson-17-pod-priority-and-preemption.md) | Complete |
 | 25 | [Node Affinity and Pod Anti-Affinity](lesson-25-node-affinity-and-anti-affinity.md) | Complete |
-| 8 | The Kubernetes API and Controllers | Planned |
-| 9 | End-to-End Request Flow in a Cluster | Planned |
-
 ## Learning Outcomes
 
 After completing this module you will be able to:
@@ -30,7 +26,7 @@ After completing this module you will be able to:
 
 ## Related Material
 
-- Diagrams: `diagrams/` once published
+- Diagrams: [diagrams/](../../diagrams/README.md)
 
 ## Next Module
 

@@ -10,9 +10,6 @@ Module 11 covers how to extend Kubernetes. Custom Resources and Custom Resource 
 |--------|-------|--------|
 | 32 | [Extending Kubernetes (CRDs and Operators)](lesson-32-extending-kubernetes-crds-and-operators.md) | Complete |
 | 34 | [Operators in Practice (Managing Stateful Apps)](lesson-34-operators-in-practice.md) | Complete |
-| 37 | Custom Resources and CRDs | Planned |
-| 38 | Operators and the Operator Pattern | Planned |
-
 ## Learning Outcomes
 
 After completing this module you will be able to:
@@ -30,7 +27,7 @@ After completing this module you will be able to:
 
 ## Related Material
 
-- Lab: `labs/` once published
+- Lab: [labs/](../../labs/README.md)
 
 ## Next Module
 

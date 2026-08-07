@@ -9,9 +9,7 @@ Module 09 covers how applications are packaged and templated. Helm and Kustomize
 | Lesson | Title | Status |
 |--------|-------|--------|
 | 33 | [Helm](lesson-33-helm.md) | Complete |
-| 34 | Kustomize | Planned |
 | 39 | [Helm Deep Dive (Writing Production Charts)](lesson-39-helm-deep-dive-writing-production-charts.md) | Complete |
-
 ## Learning Outcomes
 
 After completing this module you will be able to:
@@ -28,7 +26,7 @@ After completing this module you will be able to:
 
 ## Related Material
 
-- Lab: `labs/` once published
+- Lab: [labs/](../../labs/README.md)
 
 ## Next Module
 

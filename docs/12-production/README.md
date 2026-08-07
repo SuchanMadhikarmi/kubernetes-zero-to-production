@@ -8,17 +8,12 @@ Module 12 covers what it takes to run Kubernetes in production: autoscaling, hig
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 24 | Building a 3-Tier Web Application | Complete |
+| 24 | [Building a 3-Tier Web Application](lesson-24-building-a-3-tier-web-application.md) | Complete |
 | 26 | [Horizontal Pod Autoscaler](lesson-26-horizontal-pod-autoscaler.md) | Complete |
 | 28 | [Cluster Upgrades and Maintenance (Cordon and Drain)](lesson-28-cluster-upgrades-and-maintenance.md) | Complete |
 | 35 | [Backups and Disaster Recovery with Velero](lesson-35-backups-and-disaster-recovery-with-velero.md) | Complete |
 | 36 | [Multi-Cluster Kubernetes](lesson-36-multi-cluster-kubernetes.md) | Complete |
-| 39 | Autoscaling: HPA, VPA, and Cluster Autoscaler | Planned |
-| 40 | High Availability and Multi-Zone Deployments | Planned |
-| 41 | Production Hardening and Best Practices | Planned |
-| 42 | Capacity Planning and Cost Optimization | Planned |
 | 46 | [Progressive Delivery (Argo Rollouts)](lesson-46-progressive-delivery-argo-rollouts.md) | Complete |
-
 ## Learning Outcomes
 
 After completing this module you will be able to:
@@ -38,7 +33,7 @@ After completing this module you will be able to:
 
 ## Related Material
 
-- Lab: `labs/` once published
+- Lab: [labs/](../../labs/README.md)
 
 ## Next Module
 

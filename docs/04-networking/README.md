@@ -14,7 +14,6 @@ Module 04 explains how networking works in Kubernetes: the container network int
 | 19 | [Network Policies](lesson-19-network-policies.md) | Complete |
 | 33 | [End-to-End Traffic Flow and the 502 Bad Gateway](lesson-33-end-to-end-traffic-flow-and-the-502-bad-gateway.md) | Complete |
 | 37 | [Service Mesh (Istio and Linkerd)](lesson-37-service-mesh-istio-and-linkerd.md) | Complete |
-
 ## Learning Outcomes
 
 After completing this module you will be able to:
@@ -32,7 +31,7 @@ After completing this module you will be able to:
 
 ## Related Material
 
-- Lab: `labs/` once published
+- Lab: [labs/](../../labs/README.md)
 
 ## Next Module
 
