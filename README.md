@@ -83,7 +83,7 @@ All 47 lessons are defined. Each lesson file is created and marked complete as c
 | [08 Observability](docs/08-observability/README.md) | 30-32 | Monitoring, logging, probes | Complete (3/3) |
 | [09 Packaging](docs/09-packaging/README.md) | 33-34 | Helm and Kustomize | In Progress (1/2) |
 | [10 GitOps](docs/10-gitops/README.md) | 35-36 | GitOps principles, Argo CD, Flux | In Progress (1/2) |
-| [11 Operators](docs/11-operators/README.md) | 37-38 | CRDs and the Operator pattern | Planned |
+| [11 Operators](docs/11-operators/README.md) | 32, 37-38 | CRDs and the Operator pattern | In Progress (1/3) |
 | [12 Production](docs/12-production/README.md) | 24, 26, 28, 39-42 | Autoscaling, HA, hardening, capacity | In Progress (3/6) |
 | [13 Troubleshooting](docs/13-troubleshooting/README.md) | 27, 29, 43-44 | Workload, node, and network debugging | In Progress (2/3) |
 | [14 Certifications](docs/14-certifications/README.md) | 45-47 | CKA, CKAD, CKS exam preparation | Planned |
